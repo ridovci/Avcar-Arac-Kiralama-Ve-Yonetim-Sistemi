@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.body {
+    font-family: 'DM Sans';
+  }
+
+body.logged-in {
+  background-color: lightgreen;
+}
+
+body.logged-out {
+  background-color: lightcoral;
+}

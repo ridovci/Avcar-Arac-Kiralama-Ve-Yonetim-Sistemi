@@ -1,0 +1,11 @@
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 eşit genişlikte sütun oluştur */
+    grid-gap: 10px; /* Sütunlar arası boşluk */
+}
+
+@media (min-width: 992px) {
+    .responsive-image {
+      height: 504px;
+    }
+  }

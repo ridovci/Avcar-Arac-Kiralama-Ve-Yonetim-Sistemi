@@ -1,0 +1,124 @@
+<div class="content-column">
+  <div class="inner-column">
+    <div class="list-title">
+      <h3 class="title">Kiralama Yönetim Paneli</h3>
+      <div class="text">Kiralama işlemlerini kolayca izleyebilir, kiralama tarihlerini ve sürelerini yönetebilir, ayrıca
+        her kiralama işlemi için araçların mevcut durumunu gözlemleyebilirsiniz.</div>
+    </div>
+    <div class="my-listing-table wrap-listing">
+      <div class="cart-table">
+        <div class="search-table-head">
+          <form>
+            <div class="search-table-field" style="border: 1px solid #e1e1e1;border-radius: 10px; padding: 10px;">
+              <input type="text" placeholder="Ara" (input)="onSearchChange($event)">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="text-box">
+              <div class="form_boxes v3" style="border: 1px solid #e1e1e1; padding: 20px; border-radius: 10px;">
+                <small>Görüntüle</small>
+                <div class="a" style="color:#050B20">
+                  <select (change)="onStatusChange($event)" required style="width: 100%;">
+                    <option value="4">Tüm Kiralamalar</option>
+                    <option value="0">Onaylanan Kiralamalar</option>
+                    <option value="1">İptal Edilen Kiralamalar</option>
+                    <option value="2">Tamamlanan Kiralamalar</option>
+                    <option value="3">Beklemedeki Kiralamalar</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <a routerLink="add" routerLinkActive="active" class="brand-btn"><i class="fa-solid fa-plus"></i> Yeni
+              Kiralama Ekle</a>
+          </form>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Kiralayan Bilgileri</th>
+              <th>Kiralama Bilgileri</th>
+              <th>Araç Bilgileri</th>
+              <th>Gün</th>
+              <th>Kalan Gün</th>
+              <th>Ücret</th>
+              <th>Durum</th>
+              <th>İşlem</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let rental of rentals">
+              <td>
+                <div class="shop-cart-product">
+                  <div class="shop-product-cart-info">
+                    <p>İşlem Tarihi:</p>
+                    <p>{{ rental.requestDate | date:'dd.MM.yyyy HH:mm:ss' }}</p>
+                    <h3>{{ rental.customerName }}</h3>
+                    <p>Telefon: {{ rental.mobilePhone }}</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="shop-cart-product">
+                  <div class="shop-product-cart-info">
+                    <p>Alış Tarihi: {{ rental.startDate | date:'dd.MM.yyyy' }}</p>
+                    <h3>{{ rental.departureLocationName }}</h3>
+                    <p>İade Tarihi: {{ rental.endDate | date:'dd.MM.yyyy' }}</p>
+                    <h3>{{ rental.arrivalLocationName }}</h3>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="shop-cart-product">
+                  <div class="shop-product-cart-info">
+                    <h3>{{ rental.vehiclePlate }}</h3>
+                    <h3>{{ rental.brandName }}, {{ rental.vehicleModel }}</h3>
+                    <p>{{ rental.modelYear }} model</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <span>{{ getDaysDifference(rental.startDate, rental.endDate) }}</span>
+              </td>
+              <td>
+                <span>{{ getRemainingDays(rental.endDate) }}</span>
+              </td>
+              <td>
+                <span>{{ formatPrice(rental.totalPrice) }}</span>
+              </td>
+              <td>
+                <span>{{ translateStatus(rental.status) }}</span>
+              </td>
+              <td>
+                <a routerLink="edit/{{rental.rentalId}}" class="remove-cart-item edit-item">
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </a>
+                <a (click)="deleteRental(rental.rentalId)" class="remove-cart-item remove-item">
+                  <i class="fa-solid fa-trash"></i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="pagination-sec">
+          <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+              <li class="page-item" [class.disabled]="currentPage === 1">
+                <button class="page-link" (click)="previousPage()">Önceki</button>
+              </li>
+              <li class="page-item" *ngFor="let page of getPages()" [class.active]="page === currentPage">
+                <button class="page-link" (click)="goToPage(page)">{{ page }}</button>
+              </li>
+              <li class="page-item" [class.disabled]="currentPage === totalPages">
+                <button class="page-link" (click)="nextPage()">Sonraki</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>

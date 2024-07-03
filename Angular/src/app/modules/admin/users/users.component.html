@@ -1,0 +1,96 @@
+<div class="content-column" style="    width: 100%;">
+  <div class="inner-column">
+    <div class="list-title">
+      <h3 class="title">Müşteri Yönetim Paneli</h3>
+      <div class="text">Kayıtlı müşterilerinizi yöneterek, onların bilgilerini güncelleyebilir, yeni müşteri
+        ekleyebilir veya mevcut müşterileri silebilirsiniz.</div>
+    </div>
+
+    <div class="search-table">
+      <div class="search-table-head">
+        <form>
+          <div class="search-table-field" style="border: 1px solid #e1e1e1;border-radius: 10px;padding: 10px;">
+            <input type="text" [(ngModel)]="searchQuery" placeholder="Ara" name="searchQuery"
+              (input)="onSearchChange($event)" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="text-box">
+            <div class="form_boxes v3" style="border: 1px solid #e1e1e1;padding: 20px;border-radius: 10px;">
+              <small>Sırala</small>
+              <div class="a" style="color:#050B20">
+                <select [(ngModel)]="selectedSortOption" (ngModelChange)="sortUsers()" name="sort" class="sort"
+                  required="" style="width: 100%;">
+                  <option value="0">Kayıt Tarihi (Azalan)</option>
+                  <option value="1">Kayıt Tarihi (Artan)</option>
+                  <option value="2">İsim (Artan)</option>
+                  <option value="3">İsim (Azalan)</option>
+                  <option value="4">Soyisim (Artan)</option>
+                  <option value="5">Soyisim (Azalan)</option>
+                </select>
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <a routerLink="add" routerLinkActive="active" class="brand-btn"><i class="fa-solid fa-plus"></i> Yeni Müşteri
+            Ekle</a>
+        </form>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>Cinsiyet</th>
+            <th>Yaş</th>
+            <th>Telefon</th>
+            <th>E-mail</th>
+            <th>İşlem</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{ user.firstName }}</td>
+            <td>{{ user.lastName }}</td>
+            <td>{{ user.genderCode === 1 ? 'Erkek' : 'Kadın' }}</td>
+            <td>{{ getAge(user.dateOfBirth) }}</td>
+            <td>{{ user.mobilePhone }}</td>
+            <td>{{ user.email }}</td>
+            <td>
+              <a routerLink="edit/{{user.userId}}" class="remove-cart-item edit-item">
+                <i class="fa-regular fa-pen-to-square"></i>
+              </a>
+              <a (click)="deleteUser(user.userId)" class="remove-cart-item remove-item">
+                <i class="fa-solid fa-trash"></i>
+              </a>
+            </td>
+          </tr>
+
+
+
+
+        </tbody>
+      </table>
+      <div class="pagination-sec">
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center">
+            <li class="page-item" [class.disabled]="currentPage === 1">
+              <button class="page-link" (click)="previousPage()">Önceki</button>
+            </li>
+            <li class="page-item" *ngFor="let page of getPages()" [class.active]="page === currentPage">
+              <button class="page-link" (click)="goToPage(page)">{{ page }}</button>
+            </li>
+            <li class="page-item" [class.disabled]="currentPage === totalPages">
+              <button class="page-link" (click)="nextPage()">Sonraki</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </div><!--search-table-->
+  </div>
+</div>

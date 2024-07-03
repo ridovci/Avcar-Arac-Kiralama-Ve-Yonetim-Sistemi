@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "flaticon_boxcar";
+    src: url("../fonts/flaticon_boxcar.ttf") format("truetype"),
+url("../fonts/flaticon_boxcar.woff") format("woff"),
+url("../fonts/flaticon_boxcar.woff2") format("woff2"),
+url("../fonts/flaticon_boxcar.eot") format("embedded-opentype"),
+url("../fonts/flaticon_boxcar.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_boxcar !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-user:before {
+    content: "\f101";
+}
+.flaticon-search:before {
+    content: "\f102";
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: "\f103";
+}
+.flaticon-bookmark:before {
+    content: "\f104";
+}
+.flaticon-gearbox:before {
+    content: "\f105";
+}
+.flaticon-speedometer:before {
+    content: "\f106";
+}
+.flaticon-gasoline-pump:before {
+    content: "\f107";
+}
+.flaticon-arrow-point-to-right:before {
+    content: "\f108";
+}
+.flaticon-arrowhead-thin-outline-to-the-left:before {
+    content: "\f109";
+}
+.flaticon-car:before {
+    content: "\f10a";
+}
+.flaticon-eco-car:before {
+    content: "\f10b";
+}
+.flaticon-car-1:before {
+    content: "\f10c";
+}
+.flaticon-convertible-car:before {
+    content: "\f10d";
+}
+.flaticon-electric-car-1:before {
+    content: "\f10e";
+}
+.flaticon-calendar:before {
+    content: "\f10f";
+}
+.flaticon-smartphone:before {
+    content: "\f110";
+}
+.flaticon-email:before {
+    content: "\f111";
+}
+.flaticon-van:before {
+    content: "\f112";
+}
+.flaticon-pick-up-truck:before {
+    content: "\f113";
+}
+.flaticon-electric-car-2:before {
+    content: "\f114";
+}
+.flaticon-calendar-1:before {
+    content: "\f115";
+}
+.flaticon-filter:before {
+    content: "\f116";
+}
+.flaticon-cancel:before {
+    content: "\f117";
+}
+.flaticon-upload:before {
+    content: "\f118";
+}
+.flaticon-pin:before {
+    content: "\f119";
+}
+.flaticon-steering-wheel:before {
+    content: "\f11a";
+}
+.flaticon-brochure:before {
+    content: "\f11b";
+}
+.flaticon-report:before {
+    content: "\f11c";
+}
+.flaticon-price-tag-2:before {
+    content: "\f11d";
+}
+.flaticon-car-2:before {
+    content: "\f11e";
+}
+.flaticon-wheel:before {
+    content: "\f11f";
+}
+.flaticon-avatar:before {
+    content: "\f120";
+}
+.flaticon-engine:before {
+    content: "\f121";
+}
+.flaticon-car-door:before {
+    content: "\f122";
+}
+.flaticon-piston:before {
+    content: "\f123";
+}
+.flaticon-fill:before {
+    content: "\f124";
+}
+.flaticon-play-button:before {
+    content: "\f125";
+}
+.flaticon-degrees:before {
+    content: "\f126";
+}
+.flaticon-camera:before {
+    content: "\f127";
+}
+.flaticon-dashboard:before {
+    content: "\f128";
+}
+.flaticon-home:before {
+    content: "\f129";
+}
+.flaticon-chat:before {
+    content: "\f12a";
+}
+.flaticon-photo:before {
+    content: "\f12b";
+}
+.flaticon-logout:before {
+    content: "\f12c";
+}
+.flaticon-search-1:before {
+    content: "\f12d";
+}
+.flaticon-car-3:before {
+    content: "\f12e";
+}
+.flaticon-insurance:before {
+    content: "\f12f";
+}
+.flaticon-commit-git:before {
+    content: "\f130";
+}
+.flaticon-basket:before {
+    content: "\f131";
+}

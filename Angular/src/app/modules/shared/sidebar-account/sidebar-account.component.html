@@ -1,0 +1,22 @@
+<button class="btn-toggle" (click)="toggleSidebar()" style="background-color: #fff; padding: 5px;">
+    <svg width="22" height="11" viewBox="0 0 22 11" fill="none" xmlns="http://www.w3.org/2000/svg"><rect _ngcontent-ng-c3217433203="" width="22" height="2" fill="#050B20"></rect><rect _ngcontent-ng-c3217433203="" y="9" width="22" height="2" fill="#050B20"></rect></svg>
+</button>
+<div *ngIf="isAccountPage()"  class="side-bar" [class.is-visible]="isSidebarVisible">
+    <ul class="nav-list">
+        <li><a routerLink="profile" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash7.svg" alt="Profile Management Icon">Profil Yönetimi</a></li>
+        <li><a routerLink="rental" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash2.svg" alt="Rental Management Icon">Kiralama Yönetimi</a></li>
+        <li><a (click)="logout()"><img src="assets/images/icons/dash8.svg" alt="Logout Icon">Çıkış Yap</a></li>
+    </ul>
+</div>
+<div *ngIf="isAdminPage()"  class="side-bar" [class.is-visible]="isSidebarVisible">
+    <ul class="nav-list">
+        <li><a routerLink="/admin" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash2.svg" alt="">Yönetim Özeti</a></li>
+        <li><a routerLink="users" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash7.svg" alt="">Müşteri Yönetimi</a></li>
+        <li><a routerLink="cars" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash1.svg" alt="">Araç Yönetimi</a></li>
+        <li><a routerLink="rentals" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash2.svg" alt="">Kiralama Yönetimi</a></li>
+        <li><a routerLink="cars/settings" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash3.svg" alt="">Araç Konfigürasyon Yönetimi</a></li>
+        <li><a routerLink="rentals/settings" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash4.svg" alt="">Kiralama Seçenekleri Yönetimi</a></li>
+        <li><a routerLink="logs" routerLinkActive="active" (click)="handleMenuItemClick()"><img src="assets/images/icons/dash6.svg" alt="">Log İzleme Aracı</a></li>
+        <li><a (click)="logout()"><img src="assets/images/icons/dash8.svg" alt="">Çıkış Yap</a></li>
+    </ul>
+</div>

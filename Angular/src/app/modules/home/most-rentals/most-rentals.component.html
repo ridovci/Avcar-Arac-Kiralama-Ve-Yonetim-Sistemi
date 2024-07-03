@@ -1,0 +1,42 @@
+    <!-- cars-section-three -->
+    <section class="cars-section-four v1 layout-radius">
+        <div class="boxcar-container">
+            <div class="boxcar-title text-center wow fadeInUp">
+                <h2 class="title">En Çok Kiralanan Araçlar</h2>
+            </div>
+            <div class="row wow fadeInUp">
+                <!-- car-block-four -->
+                <div *ngFor="let vehicle of vehicles" class="car-block-four col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="inner-box">
+                        <div class="image-box two">
+                            <figure class="image"><a><img style="width: 332; height: 222px ;" src="{{vehicle.vehicleImages[0].vehicleImageUrl}}" alt=""></a></figure>
+                            <span *ngIf="vehicle.discountRate>0">Özel İndirim!</span>
+                        </div>
+                        <div class="content-box">
+                            <h6 class="title"><a>{{vehicle.brand.brandName}}, {{vehicle.model.modelName}}</a></h6>
+                            <div class="text">{{vehicle.description}}</div>
+                            <ul>
+                                <li><i class="flaticon-car-2"></i>{{vehicle.vehicleType.vehicleTypeName}}</li>
+                                <li><i class="flaticon-gasoline-pump"></i>{{vehicle.fuelType.fuelTypeName}}</li>
+                                <li><i class="flaticon-gearbox"></i>{{vehicle.gearType.gearTypeName}}</li>
+                            </ul>
+                            <div *ngIf="vehicle.discountRate > 0; else noDiscount" class="btn-box text-center">
+                                <small> {{ formatPrice(vehicle.dailyRentalFee * (1 - vehicle.discountRate / 100)) }}</small>
+                                <small class="campaign"> {{ formatPrice(vehicle.dailyRentalFee)}}</small>
+                            </div>
+                            <ng-template #noDiscount>
+                            <div  class="btn-box text-center">
+                                <small> {{ formatPrice(vehicle.dailyRentalFee) }}</small>
+                            </div> 
+                        </ng-template>
+                        </div>
+                    </div>
+                </div>
+               
+ 
+
+            </div>
+            
+        </div>
+    </section>
+    <!-- End shop section two -->

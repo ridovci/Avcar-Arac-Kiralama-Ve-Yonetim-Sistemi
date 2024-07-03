@@ -1,0 +1,6 @@
+@AvciCarRental.Api_HostAddress = http://localhost:5085
+
+GET {{AvciCarRental.Api_HostAddress}}/AvciCarRental/
+Accept: application/json
+
+###

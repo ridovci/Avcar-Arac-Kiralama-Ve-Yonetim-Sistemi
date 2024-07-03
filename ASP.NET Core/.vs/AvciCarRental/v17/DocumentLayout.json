@@ -1,0 +1,1951 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\avcicarrental.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\avcicarrental.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\vehiclefeaturescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\vehiclefeaturescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\vehicleimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\vehicleimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\modelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\modelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\services\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\additionalrentalproductassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\additionalrentalproductassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\dtos\\vehiclesearchcriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\dtos\\vehiclesearchcriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\dtos\\vehiclefeatureassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\dtos\\vehiclefeatureassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\dtos\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\dtos\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\vehiclefeatureassignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\vehiclefeatureassignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\geartypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\geartypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\fueltypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\fueltypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\airconditioningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\airconditioningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\controllers\\additionalrentalproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\controllers\\additionalrentalproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\userpersonalinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\userpersonalinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\usercontactinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\usercontactinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\vehiclefeatureassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\vehiclefeatureassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\rentalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\rentalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\context\\avcicarrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\context\\avcicarrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\additionalrentalproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\additionalrentalproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\additionalrentalproductassignmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\additionalrentalproductassignmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\vehiclevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\vehiclevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\additionalrentalproductconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\additionalrentalproductconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\userlicenseinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\userlicenseinfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\rentalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\rentalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\logconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\logconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\locationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\locationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\airconditioningconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\airconditioningconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\vehiclefeatureassignmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\vehiclefeatureassignmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\vehiclefeatureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\vehiclefeatureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\vehicletypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\vehicletypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\vehicleimagesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\vehicleimagesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\brandconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\colorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\colorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\fueltypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\fueltypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\geartypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\geartypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\configuration\\modelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\configuration\\modelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\airconditioning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\airconditioning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\vehiclefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\vehiclefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\avcicarrental.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\avcicarrental.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\modelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\modelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\loginmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\loginmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\vehicletypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\vehicletypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\userpersonalinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\userpersonalinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\usercontactinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\usercontactinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\validators\\userlicenseinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\validators\\userlicenseinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.api\\helpers\\iqueryableextensionshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABF65DBD-58F9-4AF7-9215-6DEBDCE8DDC0}|AvciCarRental.Api\\AvciCarRental.Api.csproj|solutionrelative:avcicarrental.api\\helpers\\iqueryableextensionshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\usercontactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\usercontactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\userlicenseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\userlicenseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185852_brand222400887688.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609185852_brand222400887688.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185549_brand22240088768.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609185549_brand22240088768.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185302_brand222400887.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609185302_brand222400887.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184953_brand22240088.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609184953_brand22240088.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184844_brand2224008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609184844_brand2224008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184630_brand222400.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609184630_brand222400.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184458_brand22240.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609184458_brand22240.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184224_brand2224.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609184224_brand2224.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184109_brand2222.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609184109_brand2222.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609183801_brand22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609183801_brand22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609183534_brand2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240609183534_brand2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240604105917_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240604105917_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\entities\\geartype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\entities\\geartype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240527075403_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240527075403_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240527073131_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240527073131_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525114644_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525114644_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525114427_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525114427_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\avcicarrental.datalayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\avcicarrental.datalayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525084353_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525084353_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525084515_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525084515_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083807_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525083807_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083742_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525083742_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083145_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525083145_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083124_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240525083124_init-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524161024_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240524161024_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524155230_new-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240524155230_new-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524155247_new-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240524155247_new-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518234651_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240518234651_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518225632_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240518225632_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518214115_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.DataLayer\\Migrations\\20240518214115_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518164949_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518161645_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518155939_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Persistence\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvciCarRental.Persistence\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\migrations\\20240609190140_br.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\migrations\\20240609190140_br.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\migrations\\20240612071539_adminactiondate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\migrations\\20240612071539_adminactiondate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\migrations\\20240625181606_paymnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\migrations\\20240625181606_paymnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\migrations\\20240626220123_nullable-userid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\migrations\\20240626220123_nullable-userid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|d:\\my devworks\\asp.net core\\avcicarrental\\avcicarrental.datalayer\\migrations\\20240628115346_ipadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7A548A-9F56-4CA9-9E52-9FB754B7997C}|AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj|solutionrelative:avcicarrental.datalayer\\migrations\\20240628115346_ipadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModelsController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\ModelsController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\ModelsController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\ModelsController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\ModelsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:32:20.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\LogController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\LogController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\LogController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:25:51.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\LocationsController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\LocationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:38:35.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VehicleTypesController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleTypesController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\VehicleTypesController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleTypesController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\VehicleTypesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:49:29.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\VehiclesController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\VehiclesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH8BAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T23:16:43.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleImagesController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleImagesController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\VehicleImagesController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleImagesController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\VehicleImagesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:50:23.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleFeaturesController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleFeaturesController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\VehicleFeaturesController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleFeaturesController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\VehicleFeaturesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:51:11.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AvciCarRental.Api.csproj",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\AvciCarRental.Api.csproj",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\AvciCarRental.Api.csproj",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\AvciCarRental.Api.csproj",
+              "RelativeToolTip": "AvciCarRental.Api\\AvciCarRental.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T13:56:29.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RentalController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\RentalController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\RentalController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\RentalController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\RentalController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T08:53:53.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoggingService.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Services\\LoggingService.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Services\\LoggingService.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Services\\LoggingService.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Services\\LoggingService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAUwBMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:44:22.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAqwFoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T22:04:52.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VehicleFeatureAssignmentDto.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\VehicleFeatureAssignmentDto.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\DTOs\\VehicleFeatureAssignmentDto.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\VehicleFeatureAssignmentDto.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\DTOs\\VehicleFeatureAssignmentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:32:22.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehicleSearchCriteria.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\VehicleSearchCriteria.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\DTOs\\VehicleSearchCriteria.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\VehicleSearchCriteria.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\DTOs\\VehicleSearchCriteria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T08:33:36.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RentalDto.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\RentalDto.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\DTOs\\RentalDto.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\RentalDto.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\DTOs\\RentalDto.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:38:31.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\DTOs\\UserDto.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:32:40.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\DTOs\\PaymentDto.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\PaymentDto.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\DTOs\\PaymentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:39:31.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdditionalRentalProductAssignment.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\AdditionalRentalProductAssignment.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\AdditionalRentalProductAssignment.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\AdditionalRentalProductAssignment.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\AdditionalRentalProductAssignment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T07:48:53.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VehicleFeatureAssignmentsController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleFeatureAssignmentsController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\VehicleFeatureAssignmentsController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\VehicleFeatureAssignmentsController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\VehicleFeatureAssignmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:18:35.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GearTypesController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\GearTypesController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\GearTypesController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\GearTypesController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\GearTypesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T18:37:48.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FuelTypesController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\FuelTypesController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\FuelTypesController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\FuelTypesController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\FuelTypesController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:52:52.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ColorsController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\ColorsController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\ColorsController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\ColorsController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\ColorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:55:09.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\BrandsController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\BrandsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:23:04.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AirConditioningController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\AirConditioningController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\AirConditioningController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\AirConditioningController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\AirConditioningController.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:53:46.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdditionalRentalProductController.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\AdditionalRentalProductController.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Controllers\\AdditionalRentalProductController.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Controllers\\AdditionalRentalProductController.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Controllers\\AdditionalRentalProductController.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAAAK4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:51:41.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserPersonalInfoConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserPersonalInfoConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\UserPersonalInfoConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserPersonalInfoConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\UserPersonalInfoConfiguration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:02:38.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserContactInfoConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserContactInfoConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\UserContactInfoConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserContactInfoConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\UserContactInfoConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:02:33.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Vehicle.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:46:23.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VehicleFeatureAssignment.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleFeatureAssignment.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\VehicleFeatureAssignment.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleFeatureAssignment.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\VehicleFeatureAssignment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:47:19.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VehicleType.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleType.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\VehicleType.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleType.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\VehicleType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:48:29.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RentalValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\RentalValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\RentalValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\RentalValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\RentalValidator.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T12:57:46.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Rental.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Rental.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Rental.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Rental.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:14:35.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\appsettings.json",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\appsettings.json",
+              "RelativeToolTip": "AvciCarRental.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T12:36:28.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Program.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Program.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Program.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Program.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwFkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:54:03.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AvciCarRentalDbContext.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Context\\AvciCarRentalDbContext.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Context\\AvciCarRentalDbContext.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Context\\AvciCarRentalDbContext.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Context\\AvciCarRentalDbContext.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAuwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:25:09.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AdditionalRentalProduct.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\AdditionalRentalProduct.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\AdditionalRentalProduct.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\AdditionalRentalProduct.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\AdditionalRentalProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T07:44:33.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdditionalRentalProductAssignmentConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductAssignmentConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductAssignmentConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductAssignmentConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductAssignmentConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:18:23.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VehicleConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\VehicleConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\VehicleConfiguration.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAgwFwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:20:51.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "VehicleValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\VehicleValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\VehicleValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\VehicleValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\VehicleValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:11:24.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdditionalRentalProductConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\AdditionalRentalProductConfiguration.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:32:49.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserLicenseInfoConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserLicenseInfoConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\UserLicenseInfoConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserLicenseInfoConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\UserLicenseInfoConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:10:58.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\RoleConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\RoleConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\RoleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:52:39.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RentalConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\RentalConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\RentalConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\RentalConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\RentalConfiguration.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:49:05.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PaymentConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\PaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\PaymentConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\PaymentConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\PaymentConfiguration.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:37:22.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LogConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\LogConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\LogConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\LogConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\LogConfiguration.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:47:31.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AvciCarRental.Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-28T17:25:42.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LocationConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\LocationConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\LocationConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\LocationConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\LocationConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:41:35.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\UserConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\UserConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:01:38.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AirConditioningConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\AirConditioningConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\AirConditioningConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\AirConditioningConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\AirConditioningConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:51:43.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "VehicleFeatureAssignmentConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleFeatureAssignmentConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\VehicleFeatureAssignmentConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleFeatureAssignmentConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\VehicleFeatureAssignmentConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:55:18.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "VehicleFeatureConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleFeatureConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\VehicleFeatureConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleFeatureConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\VehicleFeatureConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T09:14:00.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "VehicleTypeConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\VehicleTypeConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleTypeConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\VehicleTypeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T23:54:00.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "VehicleImagesConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleImagesConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\VehicleImagesConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\VehicleImagesConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\VehicleImagesConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:14:13.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "BrandConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\BrandConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\BrandConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\BrandConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\BrandConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:28:04.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ColorConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\ColorConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\ColorConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\ColorConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\ColorConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T09:22:42.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "FuelTypeConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\FuelTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\FuelTypeConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\FuelTypeConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\FuelTypeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T21:24:22.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GearTypeConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\GearTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\GearTypeConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\GearTypeConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\GearTypeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:53:28.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ModelConfiguration.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\ModelConfiguration.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Configuration\\ModelConfiguration.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Configuration\\ModelConfiguration.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Configuration\\ModelConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:11:19.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AirConditioning.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\AirConditioning.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\AirConditioning.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\AirConditioning.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\AirConditioning.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:46:53.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "VehicleFeature.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleFeature.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\VehicleFeature.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleFeature.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\VehicleFeature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:39:25.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "VehicleImage.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleImage.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\VehicleImage.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\VehicleImage.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\VehicleImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:58:39.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AvciCarRental.Api.http",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\AvciCarRental.Api.http",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\AvciCarRental.Api.http",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\AvciCarRental.Api.http",
+              "RelativeToolTip": "AvciCarRental.Api\\AvciCarRental.Api.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-19T14:30:35.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\appsettings.Development.json",
+              "RelativeToolTip": "AvciCarRental.Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAABhwAkAAACRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T12:36:36.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\UserValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\UserValidator.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:02:59.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "VehicleTypeValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\VehicleTypeValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\VehicleTypeValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\VehicleTypeValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\VehicleTypeValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:12:31.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LoginModelValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\LoginModelValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\LoginModelValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\LoginModelValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\LoginModelValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:21:41.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ModelValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\ModelValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\ModelValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\ModelValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\ModelValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T12:50:05.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UserPersonalInfoValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserPersonalInfoValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\UserPersonalInfoValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserPersonalInfoValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\UserPersonalInfoValidator.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:06:55.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Dockerfile",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Dockerfile",
+              "RelativeToolTip": "AvciCarRental.Api\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-28T16:44:50.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UserContactInfoValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserContactInfoValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\UserContactInfoValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserContactInfoValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\UserContactInfoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:04:19.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UserLicenseInfoValidator.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserLicenseInfoValidator.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Validators\\UserLicenseInfoValidator.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Validators\\UserLicenseInfoValidator.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Validators\\UserLicenseInfoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:05:11.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "VehicleDto.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\VehicleDto.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\DTOs\\VehicleDto.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\DTOs\\VehicleDto.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\DTOs\\VehicleDto.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA8wC0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:50:19.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Models\\LoginModel.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:22:31.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IQueryableExtensionsHelpers.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Helpers\\IQueryableExtensionsHelpers.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Api\\Helpers\\IQueryableExtensionsHelpers.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Api\\Helpers\\IQueryableExtensionsHelpers.cs",
+              "RelativeToolTip": "AvciCarRental.Api\\Helpers\\IQueryableExtensionsHelpers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T20:36:48.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\User.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\User.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:36:12.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "20240628115346_IpAdress.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240628115346_IpAdress.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240628115346_IpAdress.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240628115346_IpAdress.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240628115346_IpAdress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T11:53:46.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Log.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Log.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Log.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Log.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T07:45:44.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Payment.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Payment.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Payment.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:25:37.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "20240626220123_nullable-userId.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240626220123_nullable-userId.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240626220123_nullable-userId.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240626220123_nullable-userId.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240626220123_nullable-userId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T22:01:23.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "20240625181606_paymnet.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240625181606_paymnet.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240625181606_paymnet.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240625181606_paymnet.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240625181606_paymnet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:16:06.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Role.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Role.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Role.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:50:44.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Model.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Model.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Model.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Model.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:46:59.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Brand.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Brand.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Brand.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:46:55.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UserContactInfo.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\UserContactInfo.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\UserContactInfo.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\UserContactInfo.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\UserContactInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:47:58.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "20240612071539_adminActionDate.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240612071539_adminActionDate.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240612071539_adminActionDate.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240612071539_adminActionDate.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240612071539_adminActionDate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:15:39.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Location.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Location.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Location.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:35:04.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "UserLicenseInfo.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\UserLicenseInfo.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\UserLicenseInfo.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\UserLicenseInfo.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\UserLicenseInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:46:52.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20240609184953_brand22240088.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184953_brand22240088.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609184953_brand22240088.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184953_brand22240088.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609184953_brand22240088.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:49:53.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20240609185302_brand222400887.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185302_brand222400887.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609185302_brand222400887.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185302_brand222400887.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609185302_brand222400887.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:53:03.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "20240609190140_br.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609190140_br.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609190140_br.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609190140_br.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609190140_br.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:01:40.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20240609185549_brand22240088768.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185549_brand22240088768.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609185549_brand22240088768.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185549_brand22240088768.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609185549_brand22240088768.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:55:49.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20240609185852_brand222400887688.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185852_brand222400887688.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609185852_brand222400887688.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609185852_brand222400887688.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609185852_brand222400887688.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:58:52.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20240609184844_brand2224008.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184844_brand2224008.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609184844_brand2224008.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184844_brand2224008.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609184844_brand2224008.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:48:44.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20240609184630_brand222400.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184630_brand222400.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609184630_brand222400.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184630_brand222400.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609184630_brand222400.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:46:30.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20240609184458_brand22240.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184458_brand22240.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609184458_brand22240.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184458_brand22240.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609184458_brand22240.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:44:58.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20240609183801_brand22.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609183801_brand22.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609183801_brand22.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609183801_brand22.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609183801_brand22.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:38:01.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20240609184109_brand2222.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184109_brand2222.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609184109_brand2222.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184109_brand2222.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609184109_brand2222.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:41:09.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20240609184224_brand2224.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184224_brand2224.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609184224_brand2224.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609184224_brand2224.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609184224_brand2224.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:42:25.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "20240609183534_brand2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609183534_brand2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240609183534_brand2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240609183534_brand2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240609183534_brand2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:35:34.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "20240604105917_init2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240604105917_init2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240604105917_init2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240604105917_init2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240604105917_init2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:59:17.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Color.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Color.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\Color.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\Color.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\Color.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T09:19:35.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "FuelType.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\FuelType.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\FuelType.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\FuelType.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\FuelType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:46:57.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "GearType.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\GearType.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Entities\\GearType.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Entities\\GearType.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Entities\\GearType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:46:58.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "AvciCarRental.DataLayer.csproj",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\AvciCarRental.DataLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T14:16:26.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20240527073131_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240527073131_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240527073131_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240527073131_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240527073131_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:31:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "20240527075403_init-2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240527075403_init-2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240527075403_init-2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240527075403_init-2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240527075403_init-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:54:03.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20240525114427_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525114427_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525114427_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525114427_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525114427_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:44:27.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20240525114644_init-2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525114644_init-2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525114644_init-2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525114644_init-2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525114644_init-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:46:44.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "20240525084515_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525084515_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525084515_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525084515_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525084515_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:45:15.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "20240525084353_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525084353_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525084353_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525084353_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525084353_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:43:53.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "20240525083742_init-2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083742_init-2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525083742_init-2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083742_init-2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525083742_init-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:37:42.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "20240525083807_init-2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083807_init-2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525083807_init-2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083807_init-2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525083807_init-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:38:07.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "20240525083145_init-2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083145_init-2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525083145_init-2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083145_init-2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525083145_init-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:31:45.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "20240525083124_init-2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083124_init-2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240525083124_init-2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240525083124_init-2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240525083124_init-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:31:24.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "20240524161024_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524161024_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240524161024_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524161024_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240524161024_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:10:24.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "20240524155230_new-1.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524155230_new-1.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240524155230_new-1.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524155230_new-1.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240524155230_new-1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:52:30.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "20240524155247_new-2.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524155247_new-2.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240524155247_new-2.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240524155247_new-2.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240524155247_new-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:52:47.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "20240518234651_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518234651_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240518234651_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518234651_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240518234651_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T23:46:51.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20240518225632_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518225632_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240518225632_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518225632_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240518225632_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T22:56:32.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20240518214115_init.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518214115_init.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.DataLayer\\Migrations\\20240518214115_init.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518214115_init.cs",
+              "RelativeToolTip": "AvciCarRental.DataLayer\\Migrations\\20240518214115_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T21:41:15.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "20240518164949_init.cs",
+              "DocumentMoniker": "C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518164949_init.cs",
+              "ToolTip": "C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518164949_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:49:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20240518161645_init.cs",
+              "DocumentMoniker": "C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518161645_init.cs",
+              "ToolTip": "C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518161645_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:16:45.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "20240518155939_init.cs",
+              "DocumentMoniker": "C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518155939_init.cs",
+              "ToolTip": "C:\\Users\\AVCI\\source\\repos\\AvciCarRental\\AvciCarRental.DataLayer\\Migrations\\20240518155939_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:59:39.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Persistence\\Class1.cs",
+              "RelativeDocumentMoniker": "AvciCarRental.Persistence\\Class1.cs",
+              "ToolTip": "D:\\My DevWorks\\ASP.NET Core\\AvciCarRental\\AvciCarRental.Persistence\\Class1.cs",
+              "RelativeToolTip": "AvciCarRental.Persistence\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:10:21.056Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+.center-type{
+    justify-content: center;
+}
+
+.custom-gradient{
+    background: -webkit-linear-gradient(#405ff2, #0a0909);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #00000021;
+}
+
+.gradient-menu {
+    background-color: #333;
+    background-image: linear-gradient(35deg, #000000, #333);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
+  
+  .animate-image {
+
+    display: inline-block;
+    animation: slide-left 0.5s ease forwards;
+
+  }
+  @keyframes slide-left {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(1000px);
+    }
+    100% {
+      /* adjust the value to control how much the text moves */
+      transform: translateX(0px);
+    }
+  }
+
+
+

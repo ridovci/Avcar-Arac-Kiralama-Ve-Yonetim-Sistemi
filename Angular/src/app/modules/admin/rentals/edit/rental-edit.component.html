@@ -1,0 +1,115 @@
+<div class="content-column">
+    <div class="inner-column">
+      <div class="list-title">
+        <h3 class="title">Kiralama Bilgilerini Güncelle</h3>
+      </div>
+      <div class="form-box">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Kiralama Ayrıntıları</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="form-sec custom-register-form">
+              <form [formGroup]="rentalForm" class="row" (ngSubmit)="submitForm()">
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Alış Ofisi</label>
+                    <select name="departureLocationId" formControlName="departureLocationId" style="width: 100%;" required>
+                      <option *ngFor="let location of locations" [value]="location.locationId">{{location.locationName}}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Alış Tarihi</label>
+                    <input type="date" id="rentalDate" formControlName="rentalDate" style="width: 100%;">
+                  </div>
+                </div>
+  
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>İade Tarihi</label>
+                    <input type="date" id="returnDate" formControlName="returnDate" style="width: 100%;">
+                  </div>
+                </div>
+  
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>İade Ofisi</label>
+                    <select name="arrivalLocationId" formControlName="arrivalLocationId" style="width: 100%;" required>
+                      <option *ngFor="let location of locations" [value]="location.locationId">{{location.locationName}}</option>
+                    </select>
+                  </div>
+                </div>
+  
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Müşteri TC No</label>
+                    <input type="text" name="userTCNumber" formControlName="userTCNumber" required maxlength="11">
+                  </div>
+                </div>
+  
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Araç Plakası</label>
+                    <input type="text" id="vehiclePlate" formControlName="vehiclePlate" style="width: 100%;">
+
+                  </div>
+                </div>
+  
+                <div class="col-lg-6">
+                    <div class="form_boxes">
+                        <label>Eklenebilir Kiralama Seçenekleri</label>
+                        <div formArrayName="additionalProducts" *ngIf="availableProducts.length > 0">
+                          <div *ngFor="let productControl of additionalProducts.controls; let i = index" class="form-check">
+                            <input type="checkbox" [formControlName]="i" class="form-check-input custom-checkbox" id="product{{i}}">
+                            <label [for]="'product' + i" class="form-check-label">
+                              {{ availableProducts[i].additionalRentalProductName }} - ({{ formatPrice(availableProducts[i].additionalRentalProductFee!) }})
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                </div>
+  
+                <div class="col-lg-6">
+                  <div class="form_boxes">
+                    <label for="status">Durum</label>
+                    <select formControlName="status" style="width: 100%;">
+                      <option value="0">Onaylandı</option>
+                      <option value="1">İptal Edildi</option> 
+                      <option value="2">Tamamlandı</option>
+                      <option value="3">Beklemede</option>
+                    </select>
+                  </div>
+                </div>
+  
+                <!-- Form submit button -->
+                <div class="col-lg-12 customRegisterDisplay">
+                  <div class="form-submit">
+                    <button type="submit" class="theme-btn">Kiralama Bilgilerini Güncelle
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_711_3214)">
+                          <path d="M13.6106 0H5.05509C4.84013 0 4.66619 0.173943 4.66619 0.388901C4.66619 0.603859 4.84013 0.777802 5.05509 0.777802H12.6719L0.113453 13.3362C-0.0384687 13.4881 -0.0384687 13.7342 0.113453 13.8861C0.189396 13.962 0.288927 14 0.388422 14C0.487917 14 0.587411 13.962 0.663391 13.8861L13.2218 1.3277V8.94447C13.2218 9.15943 13.3957 9.33337 13.6107 9.33337C13.8256 9.33337 13.9996 9.15943 13.9996 8.94447V0.388901C13.9995 0.173943 13.8256 0 13.6106 0Z" fill="white"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_711_3214">
+                            <rect width="14" height="14" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

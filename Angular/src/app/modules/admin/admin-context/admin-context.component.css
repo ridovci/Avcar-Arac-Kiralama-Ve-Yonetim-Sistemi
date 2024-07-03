@@ -1,0 +1,15 @@
+.font-size-22{
+    font-size: 22px!important;
+}
+
+.remove-item:hover{
+    background-color:#dc3545!important
+}
+
+.edit-item:hover{
+    background-color:#ffc107!important
+}
+
+.add-item:hover{
+    background-color: #28a745!important;
+}

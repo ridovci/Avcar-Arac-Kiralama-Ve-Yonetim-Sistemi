@@ -1,0 +1,29 @@
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.csproj.AssemblyReference.cache
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.AssemblyInfoInputs.cache
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.AssemblyInfo.cs
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.deps.json
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.dll
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.pdb
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.dll
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\refint\AvciCarRental.DataLayer.dll
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.pdb
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\ref\AvciCarRental.DataLayer.dll
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.runtimeconfig.json
+C:\Users\AVCI\source\repos\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.genruntimeconfig.cache
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.deps.json
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.runtimeconfig.json
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.dll
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\bin\Debug\net8.0\AvciCarRental.DataLayer.pdb
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.csproj.AssemblyReference.cache
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.AssemblyInfoInputs.cache
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.AssemblyInfo.cs
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.csproj.CoreCompileInputs.cache
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.sourcelink.json
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.dll
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\refint\AvciCarRental.DataLayer.dll
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.pdb
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\AvciCarRental.DataLayer.genruntimeconfig.cache
+D:\My DevWorks\ASP.NET Core\AvciCarRental\AvciCarRental.DataLayer\obj\Debug\net8.0\ref\AvciCarRental.DataLayer.dll

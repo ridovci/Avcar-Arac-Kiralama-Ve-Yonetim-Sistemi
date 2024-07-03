@@ -1,0 +1,24 @@
+.side-bar {
+    width: 340px; 
+    transition: width 0.3s ease, opacity 0.3s ease;
+    display: none; 
+}
+
+.side-bar.is-visible {
+    display: block; 
+    opacity: 1; 
+}
+
+@media (max-width: 1400px) {
+    .side-bar {
+        display: none; 
+    }
+    .btn-toggle{
+        display: block;
+    }
+}
+@media (min-width: 1401px) {
+    .btn-toggle{
+        display: none;
+    }
+}

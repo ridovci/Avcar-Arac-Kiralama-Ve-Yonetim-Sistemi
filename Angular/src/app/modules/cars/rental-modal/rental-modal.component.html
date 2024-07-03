@@ -1,0 +1,31 @@
+<!-- rental-modal.component.html -->
+<div class="modal-header bg-primary text-white" style="background-color: #050b20 !important;">
+    <h5 class="modal-title text-white">Ek Kiralama Ürünleri</h5>
+    <button type="button" style="background-color: #050b20 !important;" class="close text-white"
+    (click)="closeModal()" aria-label="Close">
+<span class="display-6 text-white" aria-hidden="true">&times;</span>
+</button>
+
+  </div>
+  <div class="modal-body">
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let product of additionalProducts">
+        <div>
+          <h6 class="font-weight-bold">{{ product.additionalRentalProductName }} ({{ formatPrice(product.additionalRentalProductFee!) }})</h6>
+          <p>{{ product.additionalRentalProductDescription }}</p>
+        </div>
+        <div>
+          <button class="btn btn-outline-primary ml-2" (click)="toggleCart(product)">
+            <i class="bi bi-cart-plus-fill" *ngIf="!product.inCart"></i>
+            <i class="bi bi-cart-dash-fill" *ngIf="product.inCart"></i>
+            {{ product.inCart ? 'Çıkar' : 'Ekle' }}
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="modal-footer" style="    display: flex; justify-content: center;">
+    <h5 class="w-100 text-center">Toplam: {{ formatPrice(getTotalPrice()) }}</h5>
+        <button type="button" class="btn btn-success" (click)="goToRentalPay()">Ödeme Yap</button>
+  </div>
+  

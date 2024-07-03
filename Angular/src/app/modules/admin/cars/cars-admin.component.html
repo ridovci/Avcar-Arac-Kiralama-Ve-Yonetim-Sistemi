@@ -1,0 +1,139 @@
+<div class="content-column">
+    <div class="inner-column">
+        <div class="list-title">
+            <h3 class="title">Araç Yönetim Paneli</h3>
+            <div class="text">Kayıtlı araçlarınızı yöneterek, onların bilgilerini güncelleyebilir, yeni araç ekleyebilir veya mevcut araçlarınızı silebilirsiniz.</div>
+        </div>
+        <div class="my-listing-table wrap-listing">
+            <div class="cart-table">
+
+                <div class="search-table-head">
+                    <form>
+                        <div class="search-table-field" style="border: 1px solid #e1e1e1;border-radius: 10px; padding: 10px;">
+                            <input type="text" name="searchQuery" placeholder="Plaka yazınız..." (input)="onSearchChange($event)">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
+                        <div class="text-box">
+                            <div class="form_boxes v3" style="border: 1px solid #e1e1e1; padding: 20px; border-radius: 10px;">
+                                <small>Görüntüle</small>
+                                <div class="a" style="color:#050B20">                                                                                        
+                                    <select id="status" (change)="onStatusChange($event)" style="width: 100%;">
+                                        <option value="4">Tüm Araçlar</option>
+                                        <option value="0">Arızalı Araçlar</option>
+                                        <option value="1">Bakımdaki Araçlar</option>
+                                        <option value="3">Kiradaki/Müsait Araçlar</option>
+
+                                      </select>
+          
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="form_boxes v3" style="border: 1px solid #e1e1e1; padding: 20px; border-radius: 10px;">
+                                <small>Sırala</small>
+                                <div class="a" style="color:#050B20">                                                                                        
+                                    <select id="sort" (change)="onSortChange($event)">
+                                        <option value="createddate,asc">Eklenme Tarihi (Azalan)</option>
+                                        <option value="createddate,desc">Eklenme Tarihi (Artan)</option>
+                                        <option value="brandname,asc">Marka (Azalan)</option>
+                                        <option value="brandname,desc">Marka (Artan)</option>
+                                        <option value="modelname,asc">Model (Azalan)</option>
+                                        <option value="modelname,desc">Model (Artan)</option>
+                                        <option value="modelyear,asc">Model Yılı (Azalan)</option>
+                                        <option value="modelyear,desc">Model Yılı (Artan)</option>
+                                      </select>
+                                      
+          
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <a routerLink="add" routerLinkActive="active" class="brand-btn"><i class="fa-solid fa-plus"></i> Yeni Araç Ekle</a>
+                    </form>
+                </div>
+                <!-- cars-admin.component.html -->
+<table>
+    <thead>
+      <tr>
+        <th>Araç Bilgisi</th>
+        <th>Plaka</th>
+        <th>Vites Türü</th>
+        <th>Yakıt Türü</th>
+        <th>Durum</th>
+        <th>İşlem</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let vehicle of vehicles">
+        <td>
+          <div class="shop-cart-product">
+            <div class="shop-product-cart-img">
+              <img [src]="vehicle.vehicleImages[0].vehicleImageUrl" alt="{{vehicle.modelName}}">
+            </div>
+            <div class="shop-product-cart-info">
+              <h3><a title="">{{ vehicle.brandName }} - {{vehicle.modelName}} <span style="font-size:12px;color: #405FF2;">| {{ vehicle.modelYear }} model</span></a></h3>
+              <p>{{vehicle.locationName}}</p>
+              <div *ngIf="vehicle.discountRate > 0" class="price">
+                <span>{{formatPrice(vehicle.dailyRentalFee * (1 - vehicle.discountRate / 100))}}</span>
+                <del>{{formatPrice(vehicle.dailyRentalFee)}}</del>
+              </div>
+              <div *ngIf="vehicle.discountRate <= 0" class="price">
+                <span>{{formatPrice(vehicle.dailyRentalFee) }}</span>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <span>{{vehicle.numberPlate}}</span>
+        </td>
+        <td>
+          <span>{{vehicle.gearTypeName}}</span>
+        </td>
+        <td>
+          <span>{{vehicle.fuelTypeName}}</span>
+        </td>
+        <td>
+          <span>{{ vehicle.rentalStatusMessage }}</span>
+
+        </td>
+        <td>
+          <a routerLink="edit/{{vehicle.vehicleId}}" class="remove-cart-item edit-item">
+            <i class="fa-regular fa-pen-to-square"></i>
+          </a>
+          <a (click)="deleteVehicle(vehicle.vehicleId)" class="remove-cart-item remove-item">
+            <i class="fa-solid fa-trash"></i>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+                  
+                  
+                  
+  <div class="pagination-sec">
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+          <li class="page-item" [class.disabled]="currentPage === 1">
+            <button class="page-link" (click)="previousPage()">Önceki</button>
+          </li>
+          <li class="page-item" *ngFor="let page of getPages()" [class.active]="page === currentPage">
+            <button class="page-link" (click)="goToPage(page)">{{ page }}</button>
+          </li>
+          <li class="page-item" [class.disabled]="currentPage === totalPages">
+            <button class="page-link" (click)="nextPage()">Sonraki</button>
+          </li>
+        </ul>
+      </nav>
+  </div>
+  
+  
+  
+  
+  
+        
+        </div>
+    </div>
+</div>

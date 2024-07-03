@@ -1,0 +1,263 @@
+<app-header-dashboard></app-header-dashboard>
+
+
+
+<section class="inventory-section pb-0 layout-radius" style="margin: 0px;">
+    <div class="boxcar-container">
+        <div class="boxcar-title-three">
+            <h2>{{ vehicles?.brand?.brandName }} {{ vehicles?.model?.modelName }}</h2>
+            <div class="text">{{ vehicles?.modelYear }} Model, {{vehicles?.description}}</div>
+            <ul class="spectes-list">
+                <li><span><img src="/assets/images/resource/spec1-1.svg">{{ vehicles?.minDriverAge }} yaş ve üstü</span>
+                </li>
+                <li><span><img src="/assets/images/resource/spec1-2.svg">Ehliyet Yaşı {{ vehicles?.minDrivingLicenseYear
+                        }} ve Üzeri</span></li>
+            </ul>
+            <div class="content-box"><ul class="rating" style="display: flex;color: #e1c03f; justify-content: flex-end;">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                
+                                            </ul><h6 class="title" style="font-size: 15px;color: #050b20;">Müşteri Memnuniyeti</h6></div>
+
+        </div>
+        <div class="gallery-sec">
+            <div class="row" *ngIf="vehicles && vehicles.vehicleImages && vehicles.vehicleImages.length > 0">
+
+                <div class="image-column item1 col-lg-7 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="image-box">
+                            <figure class="image"><img class="responsive-image" [src]="vehicles!.vehicleImages[0].vehicleImageUrl"
+                                    alt="{{vehicles.modelName}}"></figure>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="image-column-two item2 col-6">
+                            <div class="inner-column">
+                                <div class="image-box">
+                                    <figure class="image"><img [src]="vehicles!.vehicleImages[1].vehicleImageUrl"
+                                            alt="{{vehicles.modelName}}" style="height: 246px;"></figure>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-column-two item3 col-6">
+                            <div class="inner-column">
+                                <div class="image-box">
+                                    <figure class="image"><img [src]="vehicles!.vehicleImages[2].vehicleImageUrl"
+                                            alt="{{vehicles.modelName}}" style="height: 246px;"></figure>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-column-two item4 col-6">
+                            <div class="inner-column">
+                                <div class="image-box">
+                                    <figure class="image"><img [src]="vehicles!.vehicleImages[3].vehicleImageUrl"
+                                            alt="{{vehicles.modelName}}" style="height: 245px;"></figure>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-column-two item5 col-6">
+                            <div class="inner-column">
+                                <div class="image-box">
+                                    <figure class="image"><img [src]="vehicles!.vehicleImages[4].vehicleImageUrl"
+                                            alt="{{vehicles.modelName}}" style="height: 245px;"></figure>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="inspection-column col-lg-8 col-md-12 col-sm-12">
+                <div class="inner-column mt-0">
+
+                    <div class="overview-sec-two v2 mt-0">
+                        <h4 class="title">Genel Bakış</h4>
+                        <ul class="list">
+                            <li>
+                                <img src="assets/images/resource/insep2-5.svg">
+                                <span>Araç Tipi</span>
+                                <small>{{ vehicles?.vehicleType?.vehicleTypeName}}</small>
+                            </li>
+                            <li>
+                                <img src="assets/images/resource/insep2-2.svg">
+                                <span>Yakıt Tipi</span>
+                                <small>{{ vehicles?.fuelType?.fuelTypeName}}</small>
+                            </li>
+                            <li>
+                                <img src="assets/images/resource/insep2-3.svg">
+                                <span>Vites Tipi</span>
+                                <small>{{ vehicles?.gearType?.gearTypeName}}</small>
+                            </li>
+                            <li>
+                                <img src="assets/images/resource/insep2-1.svg">
+                                <span>Klima Tipi</span>
+                                <small>{{ vehicles?.airConditioning?.airConditioningName}}</small>
+                            </li>
+                            <li>
+                                <img src="assets/images/resource/insep2-4.svg">
+                                <span>Kişi Kapasitesi</span>
+                                <small>{{ vehicles?.numberOfPeople}}</small>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- overview-sec -->
+                    
+                    <!-- features-sec -->
+                    <div class="features-sec">
+                        <h4 class="title">Araç Özellikleri</h4>
+                        <div class="row">
+                            <!-- list-column -->
+                            <div class="list-column col-12">
+                                <div class="inner-column">
+                                    <div *ngIf="availableFeatures.length>0 else noFeatures">
+                                    <ul class="feature-list">
+                                     <li *ngFor="let feature of availableFeatures"><i class="fa-solid fa-check"></i>{{ feature.vehicleFeatureName}}</li>
+                                    </ul>
+                                </div>
+                                <ng-template #noFeatures>
+                                    Araç Özellikleri bulunamadı.
+                                </ng-template>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+
+                    <div class="location-box">
+                        <h4 class="title">Araç Konumu</h4>
+                        <div class="goole-iframe">
+                            <div *ngIf="safeUrl">
+                                <iframe [src]="safeUrl" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                              </div>
+                                                      </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="side-bar-column style-1 col-lg-4 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <div class="contact-box">
+
+                        <div class="content-box">
+                            <div *ngIf="vehicles">
+                                <div *ngIf="vehicles.discountRate > 0" class="price" style="
+                                    background: #050b20;
+                                    color: #fff;
+                                    border-radius: 10px;
+                                    padding: 10px;
+                                    text-align: center;
+                                    padding-left: 30px;
+                                    padding-right: 30px;
+                                    margin-bottom: 30px;"><span style="    color: #fff;    margin-left: 10px;">{{dateDifference}} Günlük Kiralama Ücreti</span>
+                                    <h3 class="title" style="color: #fff;">{{ formatPrice(vehicles.dailyRentalFee * (1 - vehicles.discountRate / 100) * dateDifference!) }}</h3>
+                                    <span style="text-decoration: line-through;color: #fff;">{{ formatPrice(vehicles.dailyRentalFee * dateDifference!) }}</span>
+                                </div>
+
+
+                                <div *ngIf="vehicles.discountRate <= 0" class="price" style="
+                                    background: #050b20;
+                                    color: #fff;
+                                    border-radius: 10px;
+                                    padding: 10px;
+                                    text-align: center;
+                                    padding-left: 30px;
+                                    padding-right: 30px;
+                                    margin-bottom: 30px;"><span style="    color: #fff;    margin-left: 10px;">{{dateDifference}} Günlük Kiralama Ücreti</span>
+                                    <h3 class="title" style="color: #fff;">{{ formatPrice(vehicles.dailyRentalFee * (1 - vehicles.discountRate / 100) * dateDifference!) }}</h3>
+                                </div>
+                            </div>
+
+
+                          
+                                <div class="inventroy-widget widget-location mb-4">
+                                    <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form_boxes">
+                                        <label for="">Alış Ofisi</label>
+    
+                                        <div class="drop-menu">
+                  <input type="text" name="departureLocation" style="width: 100%;" value="{{departureLocation}}" class="ng-pristine ng-valid ng-touched" readonly>
+
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form_boxes">
+                                        <label for="">Alış Tarihi</label>
+    
+                                        <div class="drop-menu active">
+                                            <input type="date" id="rentalDate" value="{{rentalDate}}" 
+                                                style="   text-align: center;background: unset;" readonly>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form_boxes">
+                                        <label for="">İade Tarihi</label>
+                                        <div class="drop-menu">
+                                            <input type="date" id="returnDate" value="{{returnDate}}" 
+                                                style="   text-align: center;background: unset;" readonly>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form_boxes">
+                                        <label for="">İade Ofisi</label>
+                                        <div class="drop-menu">
+                                            <input type="text" name="arrivalLocation" style="width: 100%;" value="{{arrivalLocation}}" class="ng-pristine ng-valid ng-touched" readonly>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            <div class="btn-box text-center">
+                                <a (click)="openRentalModal()" class="side-btn">Hemen Kirala<svg xmlns="http://www.w3.org/2000/svg"
+                                        width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <g clip-path="url(#clip0_881_7563)">
+                                            <path
+                                                d="M13.6111 0H5.05558C4.84062 0 4.66668 0.173943 4.66668 0.388901C4.66668 0.603859 4.84062 0.777802 5.05558 0.777802H12.6723L0.113941 13.3362C-0.0379805 13.4881 -0.0379805 13.7342 0.113941 13.8861C0.189884 13.962 0.289415 14 0.38891 14C0.488405 14 0.5879 13.962 0.663879 13.8861L13.2222 1.3277V8.94447C13.2222 9.15943 13.3962 9.33337 13.6111 9.33337C13.8261 9.33337 14 9.15943 14 8.94447V0.388901C14 0.173943 13.8261 0 13.6111 0Z"
+                                                fill="white"></path>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_881_7563">
+                                                <rect width="14" height="14" fill="white"></rect>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<app-footer-dashboard></app-footer-dashboard>

@@ -1,0 +1,81 @@
+<div class="content-column" style="    width: 100%;">
+    <div class="inner-column">
+      <div class="list-title">
+        <h3 class="title">Log İzleme Aracı</h3>
+        <div class="text">Sistemde meydana gelen olayların, işlemlerin ve kullanıcı eylemlerinin kayıtlarını izleyebilirsiniz.</div>
+      </div>
+  
+      <div class="search-table">
+        <div class="search-table-head">
+          <form>
+            <div class="search-table-field" style="border: 1px solid #e1e1e1;border-radius: 10px;padding: 10px;">
+              <input type="text" [(ngModel)]="searchQuery" placeholder="Ara" name="searchQuery"
+                (input)="onSearchChange($event)" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </form>
+        </div>
+  
+        <table>
+          <thead>
+            <tr>
+              <th>Log Id</th>
+              <th>User Id</th>
+              <th>İp Adresi</th>
+              <th>İşlem</th>
+              <th>Tarih</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let log of logs">
+              <td>{{ log.logId }}</td>
+              <td>{{ log.userId }}</td>
+              <td>{{ log.ipAddress }}</td>
+              <td>{{ log.action }}</td>
+              <td>{{ log.actionDate | date:'short' }}</td>
+            </tr>
+ 
+          </tbody>
+        </table>
+       
+        
+        <div class="pagination-sec">
+            <nav aria-label="Page navigation">
+              <ul class="pagination justify-content-center">
+                <li class="page-item" [class.disabled]="currentPage === 1">
+                  <button class="page-link" (click)="previousPage()">Önceki</button>
+                </li>
+          
+                <!-- İlk Sayfa ve ... -->
+                <li class="page-item" *ngIf="getPages()[0] > 1">
+                  <button class="page-link" (click)="goToPage(1)">1</button>
+                </li>
+                <li class="page-item" *ngIf="getPages()[0] > 2">
+                  <button class="page-link" disabled>...</button>
+                </li>
+          
+                <!-- Dinamik Sayfa Numaraları -->
+                <li class="page-item" *ngFor="let page of getPages()" [class.active]="page === currentPage">
+                  <button class="page-link" (click)="goToPage(page)">{{ page }}</button>
+                </li>
+          
+                <!-- ... ve Son Sayfa -->
+                <li class="page-item" *ngIf="getPages().slice(-1)[0] < totalPages - 1">
+                  <button class="page-link" disabled>...</button>
+                </li>
+                <li class="page-item" *ngIf="getPages().slice(-1)[0] < totalPages">
+                  <button class="page-link" (click)="goToPage(totalPages)">{{ totalPages }}</button>
+                </li>
+          
+                <li class="page-item" [class.disabled]="currentPage === totalPages">
+                  <button class="page-link" (click)="nextPage()">Sonraki</button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          
+  
+      </div><!--search-table-->
+    </div>
+  </div>

@@ -1,0 +1,41 @@
+.ekle-butonu{
+    height: 46px;
+    line-height: 46px;
+    font-weight: 500;
+    color: var(--theme-color-light);
+    font-size: 15px;
+    padding: 0 20px;
+    border-radius: 16px;
+    border: 1px solid var(--theme-color-light);
+    text-transform: capitalize;
+    display: inline-block;
+    background-color:#198754;
+}
+
+.yeniden-adlandir-butonu{
+    height: 46px;
+    line-height: 46px;
+    font-weight: 500;
+    color: var(--theme-color-light);
+    font-size: 15px;
+    padding: 0 20px;
+    border-radius: 16px;
+    border: 1px solid var(--theme-color-light);
+    text-transform: capitalize;
+    display: inline-block;
+    background-color:#ffc107;  
+}
+
+.sil-butonu{
+    height: 46px;
+    line-height: 46px;
+    font-weight: 500;
+    color: var(--theme-color-light);
+    font-size: 15px;
+    padding: 0 20px;
+    border-radius: 16px;
+    border: 1px solid var(--theme-color-light);
+    text-transform: capitalize;
+    display: inline-block;
+    background-color:#dc3545;   
+}

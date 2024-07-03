@@ -1,0 +1,36 @@
+<app-header-dashboard></app-header-dashboard>
+
+<div class="container">
+    <div class="checkout-success-content py-2">
+        <!--Order Card-->
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="checkout-scard card border-0 rounded card-custom">
+                    <div class="card-body text-center">
+                        <p class="card-icon"><img src="assets/images/icons/ok.png"/></p>
+                        <h4 class="card-title">Ödemeniz için teşekkür ederiz!</h4>
+                        <p class="card-text text-order badge bg-success my-3 green-custom">Ödeme referans numaranız: <b style="font-weight: bolder;">{{ paymentId }}</b></p>         
+
+                        <p class="card-text mb-1"><b style="font-weight: bolder;">{{ rentalId }}</b> numaralı kiralama işleminiz başarıyla tamamlanmıştır. </p>
+                        <p class="card-text mb-1">Sipariş detaylarını ve kiralama sürecinizi takip edebileceğiniz bir bağlantı içeren onay e-postasını size gönderdik.</p>
+                        <p class="card-text mb-1">Tüm gerekli bilgiler e-posta adresinize iletilmiştir.</p>
+                       
+                       <p class="mt-5">                        
+                            <a [routerLink]="['/']" style="text-decoration: none;" class="tf-btn primary">
+                            Ana Sayfaya Dön
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.6111 0H5.05558C4.84062 0 4.66668 0.173943 4.66668 0.388901C4.66668 0.603859 4.84062 0.777802 5.05558 0.777802H12.6723L0.113941 13.3362C-0.0379805 13.4881 -0.0379805 13.7342 0.113941 13.8861C0.189884 13.962 0.289415 14 0.38891 14C0.488405 14 0.5879 13.962 0.663879 13.8861L13.2222 1.3277V8.94447C13.2222 9.15943 13.3962 9.33337 13.6111 9.33337C13.8261 9.33337 14 9.15943 14 8.94447V0.388901C14 0.173943 13.8261 0 13.6111 0Z" fill="white"></path>
+                            </svg>    
+                        </a>  
+                    </p>
+                  </div>
+         
+
+                </div>
+                
+            </div>
+        </div>
+            </div>
+</div>
+
+<app-footer-dashboard></app-footer-dashboard>

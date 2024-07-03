@@ -1,0 +1,30 @@
+.genderCode {
+    width: 100%;
+}
+
+.custom-padding {
+    padding: 50px 0 !important;
+}
+
+.custom-register-container {
+    max-width: 900px !important;
+    padding-top: 25px !important;
+    border: 1px solid #e1e1e1;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.custom-register-list {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.custom-register-form {
+    border-top: 1px solid #E1E1E1;
+    padding-top: 25px;
+}
+
+.custom-register-display {
+    display: flex;
+    justify-content: flex-end;
+}

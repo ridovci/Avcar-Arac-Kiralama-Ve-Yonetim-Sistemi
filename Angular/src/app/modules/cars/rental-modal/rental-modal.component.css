@@ -1,0 +1,17 @@
+.modal-body {
+    overflow-y: auto;
+    max-height: 600px; /* Adjust height as needed */
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-primary {
+    margin: 5px;
+  }
+
+
+  

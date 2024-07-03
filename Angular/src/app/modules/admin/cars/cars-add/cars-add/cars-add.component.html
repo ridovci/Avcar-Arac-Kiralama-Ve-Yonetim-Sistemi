@@ -1,0 +1,236 @@
+<div class="content-column">
+  <div class="inner-column">
+    <div class="list-title">
+      <h3 class="title">Yeni Araç Ekleme</h3>
+    </div>
+    <div class="form-box">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+            type="button" role="tab" aria-controls="home" aria-selected="true">Araç Bilgileri</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="form-sec custom-register-form">
+            <form [formGroup]="vehicleForm" class="row" (ngSubmit)="submitForm()">
+              <!-- Marka seçimi -->
+              <div class="col-lg-4">
+                <div class="form_boxes">
+                  <label>Marka</label>
+                  <select name="brand" formControlName="brand" (change)="onBrandChange()" style="width: 100%;" required>
+                    <option *ngFor="let brand of brands" [value]="brand.brandId">{{ brand.brandName }}</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Model seçimi -->
+              <div class="col-lg-4">
+                <div class="form_boxes">
+                  <label>Model</label>
+                  <select name="model" formControlName="model" style="width: 100%;" required>
+                    <option *ngFor="let model of models" [value]="model.modelId">{{ model.modelName }}</option>
+                  </select>
+                </div>
+              </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Model Yılı</label>
+                    <input type="text" name="modelYear" formControlName="modelYear" required maxlength="4">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Araç Tipi</label>
+                    <select name="vehicleType" formControlName="vehicleType" style="width: 100%;" required>
+                      <option *ngFor="let vehicleType of vehicleTypes" [value]="vehicleType.vehicleTypeId">{{ vehicleType.vehicleTypeName }}</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Yakıt Tipi</label>
+                    <select name="fuelType" formControlName="fuelType" style="width: 100%;" required>
+                      <option *ngFor="let fuelType of fuelTypes" [value]="fuelType.fuelTypeId">{{ fuelType.fuelTypeName }}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Vites Tipi</label>
+                    <select name="gearType" formControlName="gearType" style="width: 100%;" required>
+                      <option *ngFor="let gearType of gearTypes" [value]="gearType.gearTypeId">{{ gearType.gearTypeName }}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Klima Tipi</label>
+                    <select name="airConditioning" formControlName="airConditioning" style="width: 100%;" required>
+                      <option *ngFor="let airConditioning of airConditionings" [value]="airConditioning.airConditioningId">{{ airConditioning.airConditioningName }}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Kişi Kapasitesi</label>
+                    <input type="text" name="numberOfPeople" formControlName="numberOfPeople" required maxlength="2">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Kapı Sayısı</label>
+                    <input type="text" name="numberOfDoors" formControlName="numberOfDoors" required maxlength="1">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Araç Rengi</label>
+                    <select name="color" formControlName="color" style="width: 100%;" required>
+                      <option *ngFor="let color of colors" [value]="color.colorId">{{ color.colorName }}</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Araç Plakası</label>
+                    <input type="text" name="numberPlate" formControlName="numberPlate" required maxlength="10">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Lokasyon</label>
+                    <select name="location" formControlName="location" style="width: 100%;" required>
+                      <option *ngFor="let location of locations" [value]="location.locationId">{{ location.locationName }}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Günlük Ücret</label>
+                    <input type="text" name="dailyRentalFee" formControlName="dailyRentalFee" required maxlength="10">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>İskonto (%)</label>
+                    <input type="text" name="discountRate" formControlName="discountRate" required maxlength="10">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Minimum Sürücü Yaşı</label>
+                    <select name="minDriverAge" formControlName="minDriverAge" style="width: 100%;" required>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                      <option value="32">32</option>
+                      <option value="32">33</option>
+                      <option value="33">34</option>
+                      <option value="34">35</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Minimum Ehliyet Yaşı</label>
+                    <select name="minDrivingLicenseYear" formControlName="minDrivingLicenseYear" style="width: 100%;" required>
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Ara Durumu</label>
+                    <select name="status" formControlName="status" style="width: 100%;" required>
+                      <option value="0">Arızalı</option>
+                      <option value="1">Bakımda</option>
+                      <option value="3">Müsait</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form_boxes">
+                    <label>Araç Açıklaması</label>
+                    <textarea name="description" formControlName="description" style="width: 100%;" required></textarea>
+                  </div>
+                </div>
+
+                              <!-- Araç Özellikleri -->
+                              <div class="col-lg-6">
+                                <div class="form_boxes">
+                                  <label>Araç Özellikleri</label>
+                                  <div formArrayName="vehicleFeatures">
+                                    <div *ngFor="let feature of availableFeatures; let i = index" class="form-check">
+                                      <input
+                                        type="checkbox"
+                                        class="form-check-input custom-checkbox"
+                                        id="feature{{i}}"
+                                        [formControlName]="i"
+                                        (change)="onFeatureChange(availableFeatures[i], $event)"
+                                      />
+                                      <label class="form-check-label" for="feature{{i}}">
+                                        {{ feature.vehicleFeatureName }}
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+<!-- Araç Resimleri -->
+<div class="col-lg-6">
+  <div formArrayName="vehicleImages">
+    <div *ngFor="let imageControl of vehicleImages.controls; let i = index" class="form_boxes">
+      <label>Araç Fotoğrafı - {{i + 1}}</label>
+      <input type="text" [formControlName]="i" placeholder="http://" required>
+    </div>
+  </div>
+</div>
+
+                                <!-- Form submit butonu -->
+                                <div class="col-lg-12 customRegisterDisplay">
+                                  <div class="form-submit">
+                                    <button type="submit" class="theme-btn">Bilgileri Kaydet
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <g clip-path="url(#clip0_711_3214)">
+                                          <path
+                                            d="M13.6106 0H5.05509C4.84013 0 4.66619 0.173943 4.66619 0.388901C4.66619 0.603859 4.84013 0.777802 5.05509 0.777802H12.6719L0.113453 13.3362C-0.0384687 13.4881 -0.0384687 13.7342 0.113453 13.8861C0.189396 13.962 0.288927 14 0.388422 14C0.487917 14 0.587411 13.962 0.663391 13.8861L13.2218 1.3277V8.94447C13.2218 9.15943 13.3957 9.33337 13.6107 9.33337C13.8256 9.33337 13.9996 9.15943 13.9996 8.94447V0.388901C13.9995 0.173943 13.8256 0 13.6106 0Z"
+                                            fill="white"></path>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_711_3214">
+                                            <rect width="14" height="14" fill="white"></rect>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>

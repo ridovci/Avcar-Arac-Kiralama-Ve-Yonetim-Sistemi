@@ -1,0 +1,120 @@
+<app-header></app-header>
+<section class="login-section custom-padding">
+  <div class="inner-container custom-register-container" >
+    <div class="list-title custom-register-list">
+      <h3 class="title">AVCAR’a Üye Olun</h3>
+      <div class="text">Üye olun, hem size özel kampanya ve indirimlerden faydalanın, hem de daha hızlı rezervasyon yapın.</div>
+    </div>
+    <div class="right-box">
+      <div class="form-sec custom-register-form">
+        <form class="row" #frmRegister="ngForm" (submit)="register(frmRegister)">
+          <h6 class="title">Kullanıcı Bilgileri</h6>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Ad</label>
+              <input ngModel #firstNameInput="ngModel" type="text" name="firstName" maxlength="50" required>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Soyad</label>
+              <input ngModel #lastNameInput="ngModel" type="text" name="lastName" maxlength="50" required>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>TC No</label>
+              <input ngModel #tcNumberInput="ngModel" type="text" (input)="onTcNumberInput($event)" name="tcNumber" required maxlength="11">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Email</label>
+              <input ngModel #emailInput="ngModel" type="email" name="email" maxlength="100" required>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Şifre</label>
+              <input ngModel #passwordInput="ngModel" type="password" name="password" required>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Şifreyi Yeniden Yazın</label>
+              <input ngModel #passwordRepeatInput="ngModel" type="password" name="passwordRepeat" required>
+            </div>
+          </div>
+          <h6 class="title">Kişisel Bilgiler</h6>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Cinsiyet</label>
+              <div class="drop-menu">
+                <select ngModel #genderCodeInput="ngModel" name="genderCode" class="genderCode" required>
+                    <option value="" disabled selected>Seçiniz</option>
+                  <option value="1">Erkek</option>
+                  <option value="2">Kadın</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Doğum Tarihi</label>
+              <input ngModel #dateOfBirthInput="ngModel" name="dateOfBirth" type="date" required>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Cep Telefonu</label>
+              <input ngModel #mobilePhoneInput="ngModel" type="text" (input)="onMobilePhoneInput($event)" name="mobilePhone" required maxlength="10">
+
+            </div>
+          </div>
+          <h6 class="title">Ehliyet Bilgileri</h6>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Ehliyet Sınıfı</label>
+              <input ngModel #driverLicenseClassInput="ngModel" name="driverLicenseClass" type="text" maxlength="10" required>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Ehliyet Seri No</label>
+              <input ngModel #driverLicenseNumberInput="ngModel" name="driverLicenseNumber" type="text" maxlength="20" required>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="form_boxes">
+              <label>Ehliyet Veriliş Tarihi</label>
+              <input ngModel #driverLicenseIssueDateInput="ngModel" name="driverLicenseIssueDate" type="date">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <label class="contain">
+                <input type="checkbox" name="membershipAgreement" [(ngModel)]="frmRegister.value.membershipAgreement" required>
+                <span class="checkmark"></span> Üyelik Sözleşmesini okudum ve kabul ediyorum
+            </label>
+          </div>
+          <div class="col-lg-6 customRegisterDisplay">
+            <div class="form-submit">
+              <button type="submit" class="theme-btn">Üye Ol
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <g clip-path="url(#clip0_711_3214)">
+                    <path d="M13.6106 0H5.05509C4.84013 0 4.66619 0.173943 4.66619 0.388901C4.66619 0.603859 4.84013 0.777802 5.05509 0.777802H12.6719L0.113453 13.3362C-0.0384687 13.4881 -0.0384687 13.7342 0.113453 13.8861C0.189396 13.962 0.288927 14 0.388422 14C0.487917 14 0.587411 13.962 0.663391 13.8861L13.2218 1.3277V8.94447C13.2218 9.15943 13.3957 9.33337 13.6107 9.33337C13.8256 9.33337 13.9996 9.15943 13.9996 8.94447V0.388901C13.9995 0.173943 13.8256 0 13.6106 0Z" fill="white"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_711_3214">
+                      <rect width="14" height="14" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<app-footer></app-footer>

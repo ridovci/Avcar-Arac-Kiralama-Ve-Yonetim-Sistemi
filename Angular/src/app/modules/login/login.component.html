@@ -1,0 +1,54 @@
+<app-header> </app-header>
+<section class="login-section layout-radius custom-login-section">
+
+    <div class="inner-container custom-login-container">
+        <div class="list-title custom-login-list">
+            <h3 class="title">AVCAR’a Griş Yap </h3>
+            <div class="text">Üyelik bilgilerinizi girerek giriş yapın ve size özel kampanyalardan ve indirimlerden
+                faydalanmaya başlayın.
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="form-sec">
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="form-box">
+                            <form #frmLogin="ngForm" (submit)="login(frmLogin)">
+                                <div class="form_boxes">
+                                    <label>Email </label>
+                                    <input ngModel #emailInput="ngModel" type="email" name="email" maxlength="100"
+                                        required>
+
+                                </div>
+
+
+                                <div class="form_boxes">
+                                    <label>Şifre</label>
+                                    <input ngModel #passwordInput="ngModel" type="password" name="password" required>
+                                </div>
+
+                                <div class="btn-box">
+                                    <label class="contain">Beni Hatırla
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="submit" class="theme-btn">Giriş Yap <img src="assets/images/arrow.svg"
+                                            alt=""></button>
+                                </div>
+                            </form>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>

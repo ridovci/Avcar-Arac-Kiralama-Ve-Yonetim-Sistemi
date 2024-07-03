@@ -1,0 +1,78 @@
+
+<header class="boxcar-header header-style-v1 style-one inner-header">
+    <div class="header-inner" style="padding: 0px;">
+        <div class="inner-container">
+            <!-- Main box -->
+            <div class="c-box">
+                <div class="logo-inner">
+                    <div class="logo">
+                        <a routerLink="/">
+                            <h2 class="my-logo gradient-logo">
+                                AVCAR <span class="my-logo-span">with AI</span></h2>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Nav Box-->
+                <div class="nav-out-bar">
+                    <nav class="nav main-menu">
+                        <ul class="navigation" id="navbar">
+                            <li><a class="white-text" routerLink="/">ANA SAYFA</a></li>
+                            <li><a class="white-text" routerLink="/cars">ARAÇLAR</a></li>
+                            <li><a class="white-text">HİZMETLER</a></li>
+                            <li><a  class="white-text">KAMPANYALAR</a></li>
+                            <li><a class="white-text">HAKKIMIZDA</a></li>
+                            <li><a  class="white-text">BİZE ULAŞIN</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Main Menu End-->
+                </div>
+
+                <div class="right-box">
+
+                    <a class="search phone white-text mob"><i class="fa-regular fa-mobile"></i>0 850 444 0 459</a>
+
+                    <div *ngIf="!isLoggedIn()" class="btn kayit-ol mob">
+                      <a routerLink="/register" class="header-btn-two">
+                        <i class="fa-solid fa-user-plus me-1"></i> Kayıt Ol
+                      </a>
+                    </div>
+          
+                    <div *ngIf="!isLoggedIn()" class="btn giris-yap mob">
+                      <a routerLink="/login" class="header-btn-two">
+                        <i class="fa-solid fa-right-to-bracket me-1"></i> Giriş Yap
+                      </a>
+                    </div>
+          
+                    <div *ngIf="isUser()" class="btn kullanici-hesabi mob">
+                      <a routerLink="/account" class="header-btn-two">
+                        <i class="fa-solid fa-user me-1"></i> Kullanıcı Hesabı
+                      </a>
+                    </div>
+          
+                    <div *ngIf="isAdmin() || isSuperAdmin()" class="btn yonetici-hesabı mob">
+                      <a routerLink="/admin" class="header-btn-two">
+                        <i class="fa-solid fa-user-tie me-1"></i> Yönetici Hesabı
+                      </a>
+                    </div>
+
+
+
+
+                    <div class="mobile-navigation">
+                        <a href="javascript:void(0);" (click)="openMenu()">
+                          <svg width="22" height="11" viewBox="0 0 22 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="22" height="2" fill="#FFF" />
+                            <rect y="9" width="22" height="2" fill="#FFF" />
+                          </svg>
+                        </a>
+                      </div>
+                </div>
+            </div>
+            <!-- Mobile Menu  -->
+        </div>
+    </div>
+
+
+
+</header>

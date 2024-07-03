@@ -1,0 +1,207 @@
+<div class="content-column">
+    <div class="inner-column">
+        <div class="list-title">
+            <h3 class="title">Kiralama Seçenekleri Yönetimi</h3>
+            <div class="text">Eklenebilir kiralama özellikleri ve lokasyon bilgileri düzenlenebilir, silinebilir ve yeni özellikler
+                eklenebilir.</div>
+        </div>
+        <div class="form-box">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="Additional-Rental-Products-top-tab" data-bs-toggle="tab" data-bs-target="#Additional-Rental-Products-top"
+                        type="button" role="tab" aria-controls="Additional-Rental-Products-top" aria-selected="true">Eklenebilir Kiralama
+                        Özellikleri</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Locations-top-tab" data-bs-toggle="tab" data-bs-target="#Locations-top" type="button"
+                        role="tab" aria-controls="Locations-top" aria-selected="false">Ofis Lokasyonları</button>
+                </li>
+                
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="Additional-Rental-Products-top" role="tabpanel" aria-labelledby="Additional-Rental-Products-top-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="Additional-Rental-Products-tab" data-bs-toggle="pill"
+                                    data-bs-target="#Additional-Rental-Products" type="button" role="tab" aria-controls="Additional-Rental-Products"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="Locations-tab" data-bs-toggle="pill" data-bs-target="#Locations"
+                                    type="button" role="tab" aria-controls="Locations"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="Additional-Rental-Products" role="tabpanel"
+                                aria-labelledby="Additional-Rental-Products-tab">
+                                <form class="row" [formGroup]="additionalRentalProductsFormEdit">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Eklenebilir Kiralama Özellikleri Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="additionalRentalProductId" required style="width: 100%;" (change)="onProductSelect($event)">
+                                                    >
+                                                    <option value="" disabled selected>Eklenebilir Kiralama Özelliği Seçin</option>
+                                                    <option *ngFor="let additionalRentalProduct of additionalRentalProducts" [value]="additionalRentalProduct.additionalRentalProductId">{{ additionalRentalProduct.additionalRentalProductName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-4" style="display: flex; align-items: center;">
+                                        <div class="form_boxes mb-2" style="width: 100%;">
+                                            <div class="drop-menu">
+                                                <label>Eklenebilir Kiralama Özelliği Adı</label>
+                                                <input formControlName="additionalRentalProductName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-4" style="display: flex; align-items: center;">
+                                        <div class="form_boxes mb-2" style="width: 100%;">
+                                            <div class="drop-menu">
+                                                <label>Eklenebilir Kiralama Özelliği Açıklaması</label> <!-- Yeni alan eklendi -->
+                                                <input formControlName="additionalRentalProductDescription" type="text" maxlength="255">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-4" style="display: flex; align-items: center;">
+                                        <div class="form_boxes mb-2" style="width: 100%;">
+                                            <div class="drop-menu">
+                                                <label>Eklenebilir Kiralama Özellikliği Fiyatı</label>
+                                                <input formControlName="additionalRentalProductFee" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameAdditionalRentalProduct()">Değiştir</button>
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteAdditionalRentalProduct()">Sil</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="Locations" role="tabpanel" aria-labelledby="Locations-tab">
+                                <form class="row" [formGroup]="additionalRentalProductsFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Eklenebilir Kiralama Özelliği Adı</label>
+                                                <input formControlName="additionalRentalProductName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="display: flex; align-items: center;">
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                    <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Eklenebilir Kiralama Özelliği Açıklaması</label> <!-- Yeni alan eklendi -->
+                                                <input formControlName="additionalRentalProductDescription" type="text" maxlength="255">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="display: flex; align-items: center;">
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Eklenebilir Kiralama Özelliği Fiyatı</label>
+                                                <input formControlName="additionalRentalProductFee" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddAdditionalRentalProduct()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane fade" id="Locations-top" role="tabpanel" aria-labelledby="Locations-top-tab">
+
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="lokasyon-duzenle-tab" data-bs-toggle="pill"
+                                    data-bs-target="#lokasyon-duzenle" type="button" role="tab"
+                                    aria-controls="lokasyon-duzenle" aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="lokasyon-ekle-tab" data-bs-toggle="pill"
+                                    data-bs-target="#lokasyon-ekle" type="button" role="tab"
+                                    aria-controls="lokasyon-ekle" aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="lokasyon-duzenle" role="tabpanel"
+                                aria-labelledby="lokasyon-duzenle-tab">
+                                <form class="row" [formGroup]="locationsFormEdit">
+                                   <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Ofis Lokasyonları Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="locationId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Ofis Lokasyonu Seçin</option>
+                                                    <option *ngFor="let location of locations" [value]="location.locationId">{{ location.locationName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteLocations()">Sil</button>
+                                        </div>
+                              
+                                
+
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Ofis Lokasyonu</label>
+                                                <input formControlName="locationName" type="text" name="locationName" maxlength="100" required>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameLocations()">Yeniden Adlandır</button>
+
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="lokasyon-ekle" role="tabpanel"
+                                aria-labelledby="lokasyon-ekle-tab">
+                                <form class="row" [formGroup]="locationsFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Ofis Lokasyonu</label>
+                                                <input formControlName="locationName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+       
+
+
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddLocations()">Ekle</button>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

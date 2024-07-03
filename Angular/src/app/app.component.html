@@ -1,0 +1,20 @@
+<div class="mobile-menu-overlay" [class.open]="isMenuOpen | async" (click)="onOverlayClick($event)">
+    <div class="mobile-menu" (click)="$event.stopPropagation()">
+      <a *ngIf="!isLoggedIn()" routerLink="/register" (click)="closeMenu()"><i class="fa-solid fa-user-plus me-3"></i> KAYIT OL</a>
+      <a *ngIf="!isLoggedIn()" routerLink="/login" (click)="closeMenu()"><i class="fa-solid fa-right-to-bracket me-3"></i> GİRİŞ YAP</a>
+
+      <a *ngIf="isUser()" routerLink="/account"(click)="closeMenu()"><i class="fa-solid fa-user me-3"></i> KULLANICI HESABI</a>
+      <a *ngIf="isAdmin() || isSuperAdmin()"  routerLink="/admin" (click)="closeMenu()"><i class="fa-solid fa-user-tie me-3"></i> YÖNETİCİ HESABI</a>
+      <hr>
+      <a routerLink="/" (click)="closeMenu()"><i class="fa-solid fa-house me-3"></i> ANA SAYFA</a>
+      <a routerLink="/cars" (click)="closeMenu()"><i class="fa-solid fa-car me-3"></i> ARAÇLAR</a>
+      <a routerLink="/" (click)="closeMenu()"><i class="fa-brands fa-slack me-3"></i> HİZMETLER</a>
+      <a routerLink="/" (click)="closeMenu()"><i class="fa-solid fa-percent me-3"></i> KAMPANYALAR</a>
+      <a routerLink="/" (click)="closeMenu()"><i class="fa-solid fa-address-card me-3"></i> HAKKIMIZDA</a>
+      <a routerLink="/" (click)="closeMenu()"><i class="fa-solid fa-map-location-dot me-3"></i> BİZE ULAŞIN</a>
+      
+     
+  </div>
+    </div>
+    
+<router-outlet></router-outlet>

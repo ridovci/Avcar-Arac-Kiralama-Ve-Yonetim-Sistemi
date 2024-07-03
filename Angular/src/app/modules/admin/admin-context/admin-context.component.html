@@ -1,0 +1,305 @@
+<div class="content-column">
+    <div class="inner-column">
+        <div class="list-title mb-4">
+            <h3 class="title">Yönetim Özeti</h3>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-12">
+                <div class="uii-item">
+                    <span>Toplam Kiralama Sayısı</span>
+                    <h3>{{ rentalsCount }}</h3>
+                    <div class="ui-icon">
+                        <img src="assets/images/icons/cart1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-12">
+                <div class="uii-item">
+                    <span>Toplam Müşteri Sayısı</span>
+                    <h3>{{ usersCount }}</h3>
+                    <div class="ui-icon v2">
+                        <img src="assets/images/icons/cart2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-12">
+                <div class="uii-item">
+                    <span>Toplam Araç Sayısı</span>
+                    <h3>{{ vehiclesCount }}</h3>
+                    <div class="ui-icon v3">
+                        <img src="assets/images/icons/cart3.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-12">
+                <div class="uii-item">
+                    <span>Bekleyen Bildirimler</span>
+                    <h3>{{ pendingCount }}</h3>
+                    <div class="ui-icon v4">
+                        <img src="assets/images/icons/cart4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <div class="list-title mb-1 mt-0">
+            <h3 class="title font-size-22">Onay Bekleyen Kiralamalar</h3>
+        </div>
+    </div>
+        <div class="my-listing-table wrap-listing">
+            <div class="cart-table">
+                <table *ngIf="pendingRentals && pendingRentals.length > 0">
+                    <thead>
+                        <tr>
+                            <th>Kiralayan Bilgileri</th>
+                            <th>Kiralama Bilgileri</th>
+                            <th>Araç Bilgileri</th>
+                            <th>Gün</th>
+                            <th>Ücret</th>
+                            <th style="text-align: center;">İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let rental of pendingRentals">
+                            <td>
+                              <div class="shop-cart-product">
+                                <div class="shop-product-cart-info">
+                                  <p>İşlem Tarihi:</p>
+                                  <p>{{ rental.requestDate | date:'dd.MM.yyyy HH:mm:ss' }}</p>
+                                  <h3>{{ rental.customerName }}</h3>
+                                  <p>Telefon: {{ rental.mobilePhone }}</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="shop-cart-product">
+                                <div class="shop-product-cart-info">
+                                  <p>Alış Tarihi: {{ rental.startDate | date:'dd.MM.yyyy' }}</p>
+                                  <h3>{{ rental.departureLocationName }}</h3>
+                                  <p>İade Tarihi: {{ rental.endDate | date:'dd.MM.yyyy' }}</p>
+                                  <h3>{{ rental.arrivalLocationName }}</h3>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="shop-cart-product">
+                                <div class="shop-product-cart-info">
+                                  <h3>{{ rental.vehiclePlate }}</h3>
+                                  <h3>{{ rental.brandName }}, {{ rental.vehicleModel }}</h3>
+                                  <p>{{ rental.modelYear }} model</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <span>{{ getDaysDifference(rental.startDate, rental.endDate) }}</span>
+                            </td>
+                            <td>
+                              <span>{{ formatPrice(rental.totalPrice) }}</span>
+                            </td>
+                            <td>
+                                <a (click)="approveRental(rental.rentalId)" class="remove-cart-item add-item" style="width: 120px;">
+                                    <i class="fa-solid fa-check"></i> Onayla
+                                    </a>
+                                    <a (click)="cancelRental(rental.rentalId)" class="remove-cart-item remove-item" style="width: 120px;">
+                                        <i class="fa-solid fa-xmark"></i> İptal Et
+                                    </a>
+                            </td>
+                        </tr>
+                       
+                        
+
+                    </tbody>
+                </table>
+
+                <div *ngIf="!pendingRentals || pendingRentals.length === 0">
+                    Onay bekleyen kiralama bulunmamaktadır.
+                </div>
+
+
+                  <div class="pagination-sec" *ngIf="totalItems > pageSize">
+                    <nav aria-label="Page navigation">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item" [class.disabled]="currentPage === 1">
+                          <button class="page-link" (click)="previousPage()">Önceki</button>
+                        </li>
+                        <li class="page-item" *ngFor="let page of getPages()" [class.active]="page === currentPage">
+                          <button class="page-link" (click)="goToPage(page)">{{ page }}</button>
+                        </li>
+                        <li class="page-item" [class.disabled]="currentPage * pageSize >= totalItems">
+                          <button class="page-link" (click)="nextPage()">Sonraki</button>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <div class="list-title mb-1 mt-0">
+            <h3 class="title font-size-22">Tamamlanacak Kiralama İşlemleri</h3>
+        </div>
+    </div>
+        <div class="my-listing-table wrap-listing">
+            <div class="cart-table">
+                <table *ngIf="completedRentals && completedRentals.length > 0">
+                    <thead>
+                        <tr>
+                            <th>Kiralayan Bilgileri</th>
+                            <th>Kiralama Bilgileri</th>
+                            <th>Araç Bilgileri</th>
+                            <th>Gün</th>
+                            <th>Kalan Gün</th>
+                            <th>Ücret</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let completedRental of completedRentals">
+                            <td>
+                              <div class="shop-cart-product">
+                                <div class="shop-product-cart-info">
+                                  <p>İşlem Tarihi:</p>
+                                  <p>{{ completedRental.requestDate | date:'dd.MM.yyyy HH:mm:ss' }}</p>
+                                  <h3>{{ completedRental.customerName }}</h3>
+                                  <p>Telefon: {{ completedRental.mobilePhone }}</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="shop-cart-product">
+                                <div class="shop-product-cart-info">
+                                  <p>Alış Tarihi: {{ completedRental.startDate | date:'dd.MM.yyyy' }}</p>
+                                  <h3>{{ completedRental.departureLocationName }}</h3>
+                                  <p>İade Tarihi: {{ completedRental.endDate | date:'dd.MM.yyyy' }}</p>
+                                  <h3>{{ completedRental.arrivalLocationName }}</h3>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="shop-cart-product">
+                                <div class="shop-product-cart-info">
+                                  <h3>{{ completedRental.vehiclePlate }}</h3>
+                                  <h3>{{ completedRental.brandName }}, {{ completedRental.vehicleModel }}</h3>
+                                  <p>{{ completedRental.modelYear }} model</p>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <span>{{ getDaysDifference(completedRental.startDate, completedRental.endDate) }}</span>
+                            </td>
+                            <td>
+                              <span>{{ getRemainingDays(completedRental.endDate) }}</span>
+                            </td>
+                            <td>
+                              <span>{{ formatPrice(completedRental.totalPrice) }}</span>
+                            </td>
+
+                            <td>
+                                <a (click)="completeRental(completedRental.rentalId)" class="remove-cart-item add-item" style="width: 120px;">
+                                    <i class="fa-solid fa-check"></i> Teslim Al
+                                    </a>
+                            </td>
+                        </tr>
+                       
+                        
+
+                    </tbody>
+                </table>
+
+                <div *ngIf="!completedRentals || completedRentals.length === 0">
+                    Tamamlanacak kiralama bulunmamaktadır.
+                </div>
+
+
+                  <div class="pagination-sec" *ngIf="totalItemsC > pageSizeC">
+                    <nav aria-label="Page navigation">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item" [class.disabled]="currentPageC === 1">
+                          <button class="page-link" (click)="previousPageC()">Önceki</button>
+                        </li>
+                        <li class="page-item" *ngFor="let page of getPagesC()" [class.active]="page === currentPageC">
+                          <button class="page-link" (click)="goToPageC(page)">{{ page }}</button>
+                        </li>
+                        <li class="page-item" [class.disabled]="currentPageC * pageSizeC >= totalItemsC">
+                          <button class="page-link" (click)="nextPageC()">Sonraki</button>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+
+
+
+            </div>
+        </div>
+        <div class="graph-content mt-3">
+            <div class="row">
+        <div class="mt-4">
+                        <div class="list-title mb-1 mt-0">
+                        <h3 class="title font-size-22">Bakımda/Arızalı Olan Araç Listesi</h3>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+
+                        <div class="my-listing-table wrap-listing">
+                            <div class="cart-table">
+
+                
+                                <table *ngIf="maintenanceVehicleList && maintenanceVehicleList.length > 0">
+                                    <thead>
+                                        <tr>
+                                            <th>Araç</th>
+                                            <th>Plaka</th>
+                                            <th>Durum</th>
+                                            <th class="text-center">Düzenle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let vehicleList of maintenanceVehicleList">
+                                            <td>
+                                                <div class="shop-cart-product">
+                                                    <div class="shop-product-cart-img">
+                                                        <img [src]="vehicleList.vehicleImages[0].vehicleImageUrl" alt="{{vehicleList.modelName}}">
+                                                    </div>
+                                                    <div class="shop-product-cart-info">
+                                                        <h3><a href="#" title="">{{ vehicleList.model.brand?.brandName }}</a></h3>
+                                                        <p>{{ vehicleList.modelYear }} {{ vehicleList.model.modelName }}</p>
+                                                        <div class="price">
+                                                            <span *ngIf="vehicleList.discountRate > 0">{{formatPrice(vehicleList.dailyRentalFee * (1 - vehicleList.discountRate / 100))}}</span>
+                                                            <del>{{formatPrice(vehicleList.dailyRentalFee)}}</del>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span>{{ vehicleList.numberPlate }}</span>
+                                            </td>
+                                            <td>
+                                                <span>{{ vehicleService.getStatusDescription(+vehicleList.status) }}</span>
+                                            </td>
+                                            <td class="text-center">
+                                                <a routerLink="cars/edit/{{ vehicleList.vehicleId }}" class="remove-cart-item edit-item">
+                                                    <i class="fa-regular fa-pen-to-square"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                
+                                <div *ngIf="!maintenanceVehicleList || maintenanceVehicleList.length === 0">
+                                    Bakımda olan veya arızalı araç bulunmamaktadır.
+                                </div>
+                                
+                                
+                  
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,89 @@
+.brand-btn {
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #405ff2;
+    background: #405ff2;
+  }
+  
+  .brand-btn:hover{
+  background-color:#1c36b8;
+  }
+
+  .font-size-22{
+    font-size: 22px!important;
+}
+
+.remove-item:hover{
+    background-color:#dc3545!important
+}
+
+.edit-item:hover{
+    background-color:#ffc107!important
+}
+
+.add-item:hover{
+    background-color: #28a745!important;
+}
+
+/* cars-admin.component.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f8f8f8;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .shop-cart-product {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shop-product-cart-img img {
+    width: 100px;
+    height: 100%;
+  }
+  
+  .shop-product-cart-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .shop-product-cart-info p {
+    margin: 5px 0;
+  }
+  
+  .shop-product-cart-info .price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shop-product-cart-info .price span {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  .shop-product-cart-info .price del {
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  .remove-cart-item {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .remove-cart-item i {
+    font-size: 1.2em;
+  }
+  

@@ -1,0 +1,33 @@
+.brand-btn {
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #405ff2;
+    background: #405ff2;
+  }
+  
+  .brand-btn:hover{
+  background-color:#1c36b8;
+  }
+
+  .font-size-22{
+    font-size: 22px!important;
+}
+
+.remove-item:hover{
+    background-color:#dc3545!important
+}
+
+.edit-item:hover{
+    background-color:#ffc107!important
+}
+
+.add-item:hover{
+    background-color: #28a745!important;
+}
+.disabled {
+    pointer-events: none; /* Butona tıklanamaz hale getirir */
+    opacity: 0.5; /* Butonun opaklığını azaltır, etkisiz olduğunu gösterir */
+}

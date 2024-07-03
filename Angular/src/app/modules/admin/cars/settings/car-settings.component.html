@@ -1,0 +1,582 @@
+<div class="content-column">
+    <div class="inner-column">
+        <div class="list-title">
+            <h3 class="title">Araç Konfigürasyon Yönetimi</h3>
+            <div class="text">Araç özelliklerini bu yönetim panelinden oluşturabilir veya silebilirsiniz.</div>
+        </div>
+        <div class="form-box">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="brand-tab" data-bs-toggle="tab" data-bs-target="#brand" type="button" role="tab" aria-controls="brand" aria-selected="true">Marka</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="model-tab" data-bs-toggle="tab" data-bs-target="#model" type="button" role="tab" aria-controls="model" aria-selected="false">Model</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="vehicle-type-tab" data-bs-toggle="tab" data-bs-target="#vehicle-type" type="button" role="tab" aria-controls="vehicle-type" aria-selected="false">Araç Tipi</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="fuel-type-tab" data-bs-toggle="tab" data-bs-target="#fuel-type" type="button" role="tab" aria-controls="fuel-type" aria-selected="false">Yakıt Tipi</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="gear-type-tab" data-bs-toggle="tab" data-bs-target="#gear-type" type="button" role="tab" aria-controls="gear-type" aria-selected="false">Vites Tipi</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="color-tab" data-bs-toggle="tab" data-bs-target="#color" type="button" role="tab" aria-controls="color" aria-selected="false">Renk</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="air-conditioning-tab" data-bs-toggle="tab" data-bs-target="#air-conditioning" type="button" role="tab" aria-controls="air-conditioning" aria-selected="false">Klima Tipi</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="vehicle-features-tab" data-bs-toggle="tab" data-bs-target="#vehicle-features" type="button" role="tab" aria-controls="vehicle-features" aria-selected="false">Araç Özellikleri</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+			<!-- Vehicle Brand -->
+                <div class="tab-pane fade show active" id="brand" role="tabpanel" aria-labelledby="brand-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#edit" type="button" role="tab" aria-controls="edit"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="add-tab" data-bs-toggle="pill" data-bs-target="#add"
+                                    type="button" role="tab" aria-controls="add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="edit" role="tabpanel"
+                                aria-labelledby="edit-tab">
+                                <form class="row" [formGroup]="editForm">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Marka Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="brandId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Marka Seçin</option>
+                                                    <option *ngFor="let brand of brands" [value]="brand.brandId">{{ brand.brandName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteBrands()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Marka Adı</label>
+                                                <input formControlName="brandName" type="text" name="brandName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameBrands()">Yeniden Adlandır</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="add" role="tabpanel" aria-labelledby="add-tab">
+                              
+                                <form class="row" [formGroup]="addForm">
+
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Marka Adı</label>
+                                                <input type="text" formControlName="brandName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddBrands()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Vehicle Model -->
+                <div class="tab-pane fade" id="model" role="tabpanel" aria-labelledby="model-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="model-edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#model-edit" type="button" role="tab" aria-controls="model-edit"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="model-add-tab" data-bs-toggle="pill" data-bs-target="#model-add"
+                                    type="button" role="tab" aria-controls="model-add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="model-edit" role="tabpanel" aria-labelledby="model-edit-tab">
+                                <form class="row" [formGroup]="modelEditForm">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Marka Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="brandId" (change)="onBrandChange($event)" required style="width: 100%;">
+                                                    <option [ngValue]="null" disabled selected>Marka seçiniz</option>
+                                                    <option *ngFor="let brand of brands" [value]="brand.brandId">{{ brand.brandName }}</option>
+                                                  </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Model Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="modelId" required style="width: 100%;">
+                                                    <option [ngValue]="null" disabled selected>Model seçiniz</option>
+                                                    <option *ngFor="let model of models" [value]="model.modelId">{{ model.modelName }}</option>
+                                                  </select>
+                                                  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteModels()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Model Adı</label>
+                                                
+                                                <input formControlName="modelName" type="text" name="modelName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameModels()">Yeniden Adlandır</button>
+                                    </div>
+                                   
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="model-add" role="tabpanel" aria-labelledby="model-add-tab">
+                                <form class="row" [formGroup]="modelAddForm">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Marka Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="brandId" required style="width: 100%;">                                                
+                                                   <option [ngValue]="null">Marka seçiniz</option>
+                                                    <option *ngFor="let brand of brands" [value]="brand.brandId">{{ brand.brandName }}</option>
+                                                  </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Model Adı</label>
+                                                <input type="text" formControlName="modelName" placeholder="Model Adı">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddModels()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Vehicle Type -->
+                <div class="tab-pane fade" id="vehicle-type" role="tabpanel" aria-labelledby="vehicle-type-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="vehicle-type-edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#vehicle-type-edit" type="button" role="tab" aria-controls="vehicle-type-edit"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="vehicle-type-add-tab" data-bs-toggle="pill" data-bs-target="#vehicle-type-add"
+                                    type="button" role="tab" aria-controls="vehicle-type-add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="vehicle-type-edit" role="tabpanel"
+                                aria-labelledby="vehicle-type-edit-tab">
+                                <form class="row" [formGroup]="vehicleTypeFormEdit">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Araç Tipi Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="vehicleTypeId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Araç Tipi Seçin</option>
+                                                    <option *ngFor="let vehicleType of vehicleTypes" [value]="vehicleType.vehicleTypeId">{{ vehicleType.vehicleTypeName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteVehicleTypes()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Araç Tipi</label>
+                                                <input formControlName="vehicleTypeName" type="text" name="vehicleTypeName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameVehicleTypes()">Yeniden Adlandır</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="vehicle-type-add" role="tabpanel" aria-labelledby="vehicle-type-add-tab">
+                                <form class="row" [formGroup]="vehicleTypeFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Araç Tipi</label>
+                                                <input formControlName="vehicleTypeName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddVehicleTypes()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Fuel Type -->
+                <div class="tab-pane fade" id="fuel-type" role="tabpanel" aria-labelledby="fuel-type-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="fuel-type-edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#fuel-type-edit" type="button" role="tab" aria-controls="fuel-type-edit"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="fuel-type-add-tab" data-bs-toggle="pill" data-bs-target="#fuel-type-add"
+                                    type="button" role="tab" aria-controls="fuel-type-add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="fuel-type-edit" role="tabpanel"
+                                aria-labelledby="fuel-type-edit-tab">
+                                <form class="row" [formGroup]="fuelTypeFormEdit">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Yakıt Tipi Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="fuelTypeId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Yakıt Tipi Seçin</option>
+                                                    <option *ngFor="let fuelType of fuelTypes" [value]="fuelType.fuelTypeId">{{ fuelType.fuelTypeName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteFuelTypes()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yakıt Tipi</label>
+                                                <input formControlName="fuelTypeName" type="text" name="fuelTypeName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameFuelTypes()">Yeniden Adlandır</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="fuel-type-add" role="tabpanel" aria-labelledby="fuel-type-add-tab">
+                                <form class="row" [formGroup]="fuelTypeFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Yakıt Tipi</label>
+                                                <input formControlName="fuelTypeName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddFuelTypes()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Gear Type -->
+                <div class="tab-pane fade" id="gear-type" role="tabpanel" aria-labelledby="gear-type-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="gear-type-edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#gear-type-edit" type="button" role="tab" aria-controls="gear-type-edit"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="gear-type-add-tab" data-bs-toggle="pill" data-bs-target="#gear-type-add"
+                                    type="button" role="tab" aria-controls="gear-type-add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="gear-type-edit" role="tabpanel"
+                                aria-labelledby="gear-type-edit-tab">
+                                <form class="row" [formGroup]="gearTypeFormEdit">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Vites Tipi Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="gearTypeId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Vites Tipi Seçin</option>
+                                                    <option *ngFor="let gearType of gearTypes" [value]="gearType.gearTypeId">{{ gearType.gearTypeName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteGearTypes()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Vites Tipi</label>
+                                                <input formControlName="gearTypeName" type="text" name="gearTypeName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameGearTypes()">Yeniden Adlandır</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="gear-type-add" role="tabpanel" aria-labelledby="gear-type-add-tab">
+                                <form class="row" [formGroup]="gearTypeFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Vites Tipi</label>
+                                                <input formControlName="gearTypeName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddGearTypes()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Color -->
+                <div class="tab-pane fade" id="color" role="tabpanel" aria-labelledby="color-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="color-edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#color-edit" type="button" role="tab" aria-controls="color-edit"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="color-add-tab" data-bs-toggle="pill" data-bs-target="#color-add"
+                                    type="button" role="tab" aria-controls="color-add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="color-edit" role="tabpanel"
+                                aria-labelledby="color-edit-tab">
+                                <form class="row" [formGroup]="colorFormEdit">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Araç Rengi Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="colorId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Araç Rengi Seçin</option>
+                                                    <option *ngFor="let color of colors" [value]="color.colorId">{{ color.colorName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteColors()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Araç Rengi</label>
+                                                <input formControlName="colorName" type="text" name="colorName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameColors()">Yeniden Adlandır</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="color-add" role="tabpanel" aria-labelledby="color-add-tab">
+                                <form class="row" [formGroup]="colorFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Araç Rengi</label>
+                                                <input formControlName="colorName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddColors()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Air Conditioning -->
+                <div class="tab-pane fade" id="air-conditioning" role="tabpanel" aria-labelledby="air-conditioning-tab">
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="airConditioning-edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#airConditioning-edit" type="button" role="tab" aria-controls="airConditioning-edit"
+                                    aria-selected="true">Yendiden Adlandır</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="airConditioning-add-tab" data-bs-toggle="pill" data-bs-target="#airConditioning-add"
+                                    type="button" role="tab" aria-controls="airConditioning-add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="airConditioning-edit" role="tabpanel"
+                                aria-labelledby="airConditioning-edit-tab">
+                                <form class="row" [formGroup]="airConditioningFormEdit">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Klima Tipi Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="airConditioningId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Klima Tipi Seçin</option>
+                                                    <option *ngFor="let airConditioning of airConditionings" [value]="airConditioning.airConditioningId">{{ airConditioning.airConditioningName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteAirConditionings()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Klima Tipi</label>
+                                                <input formControlName="airConditioningName" type="text" name="airConditioningName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameAirConditionings()">Yeniden Adlandır</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="airConditioning-add" role="tabpanel" aria-labelledby="airConditioning-add-tab">
+                                <form class="row" [formGroup]="airConditioningFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Klima Tipi</label>
+                                                <input formControlName="airConditioningName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddAirConditionings()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- Vehicle Feature -->				
+                <!-- Vehicle Features -->
+                <div class="tab-pane fade" id="vehicle-features" role="tabpanel" aria-labelledby="vehicle-features-tab">                
+                    <div class="box-tabs-element">
+                        <ul class="nav nav-pills nav-tab-el1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="vehicle-feature-edit-tab" data-bs-toggle="pill"
+                                    data-bs-target="#vehicle-feature-edit" type="button" role="tab" aria-controls="vehicle-feature-edit"
+                                    aria-selected="true">Düzenleme</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="vehicle-feature-add-tab" data-bs-toggle="pill" data-bs-target="#vehicle-feature-add"
+                                    type="button" role="tab" aria-controls="vehicle-feature-add"
+                                    aria-selected="false">Ekleme</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="vehicle-feature-edit" role="tabpanel"
+                                aria-labelledby="vehicle-feature-edit-tab">
+                                <form class="row" [formGroup]="vehicleFeatureFormEdit">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <label>Araç Özellikleri Listesi</label>
+                                            <div class="drop-menu">
+                                                <select formControlName="vehicleFeatureId" required style="width: 100%;">
+                                                    <option value="" disabled selected>Araç Özelliği Seçin</option>
+                                                    <option *ngFor="let vehicleFeature of vehicleFeatures" [value]="vehicleFeature.vehicleFeatureId">{{ vehicleFeature.vehicleFeatureName }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-danger me-2" (click)="onDeleteVehicleFeatures()">Sil</button>
+                                    </div>
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Araç Özelliği</label>
+                                                <input formControlName="vehicleFeatureName" type="text" name="vehicleFeatureName" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-warning me-2" (click)="onRenameVehicleFeatures()">Yeniden Adlandır</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="vehicle-feature-add" role="tabpanel" aria-labelledby="vehicle-feature-add-tab">
+                                <form class="row" [formGroup]="vehicleFeatureFormAdd">
+                                    <div class="form-column col-lg-4">
+                                        <div class="form_boxes mb-2">
+                                            <div class="drop-menu">
+                                                <label>Yeni Araç Özelliği</label>
+                                                <input formControlName="vehicleFeatureName" type="text" maxlength="100" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-column col-lg-8" style="    display: flex; align-items: center;">
+                                        <button type="button" class="btn btn-success me-2" (click)="onAddVehicleFeatures()">Ekle</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

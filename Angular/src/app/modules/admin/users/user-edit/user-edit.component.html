@@ -1,0 +1,270 @@
+<div class="content-column">
+  <div class="inner-column">
+    <div class="list-title">
+      <h3 class="title">Müşteri Bilgileri Düzenleme</h3>
+    </div>
+    <div class="form-box">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+            role="tab" aria-controls="home" aria-selected="true">Kullanıcı Bilgileri</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">Geçmiş Kiralamalar</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="form-sec custom-register-form">
+            <div *ngIf="user">
+
+              <form class="row" #frmUpdate="ngForm" (submit)="updateForm(frmUpdate)">
+                <h6 class="title">Kullanıcı Bilgileri</h6>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Ad</label>
+                    <input *ngIf="user.userPersonalInfo" ngModel #firstNameInput="ngModel"
+                      [(ngModel)]="user.userPersonalInfo.firstName" type="text" name="firstName" maxlength="50"
+                      required>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Soyad</label>
+                    <input *ngIf="user.userPersonalInfo" ngModel #lastNameInput="ngModel"
+                      [(ngModel)]="user.userPersonalInfo.lastName" type="text" name="lastName" maxlength="50" required>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>TC No</label>
+                    <input ngModel #tcNumberInput="ngModel" [(ngModel)]="user.tcNumber" type="text"
+                      (input)="onTcNumberInput($event)" name="tcNumber" required maxlength="11">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Email</label>
+                    <input ngModel #emailInput="ngModel" [(ngModel)]="user.email" type="email" name="email"
+                      maxlength="100" required>
+                  </div>
+                </div>
+                <h6 class="title">Kişisel Bilgiler</h6>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Cinsiyet</label>
+                    <div class="drop-menu">
+                      <select *ngIf="user.userPersonalInfo" ngModel #genderCodeInput="ngModel"
+                        [(ngModel)]="user.userPersonalInfo.genderCode" name="genderCode" class="genderCode" style="width: 100%;" required>
+                        <option value="" disabled>Seçiniz</option>
+                        <option value="1">Erkek</option>
+                        <option value="2">Kadın</option>
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Doğum Tarihi</label>
+                    <input name="dateOfBirth" [(ngModel)]="formatteddateOfBirth" type="date">
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Cep Telefonu</label>
+                    <input *ngIf="user.userContactInfo" ngModel #mobilePhoneInput="ngModel"
+                      [(ngModel)]="user.userContactInfo.mobilePhone" type="text" (input)="onMobilePhoneInput($event)"
+                      name="mobilePhone" required maxlength="10">
+
+                  </div>
+                </div>
+                <h6 class="title">Ehliyet Bilgileri</h6>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Ehliyet Sınıfı</label>
+                    <input *ngIf="user.userLicenseInfo" ngModel #driverLicenseClassInput="ngModel"
+                      [(ngModel)]="user.userLicenseInfo.driverLicenseClass" name="driverLicenseClass" type="text"
+                      maxlength="10" required>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Ehliyet Seri No</label>
+                    <input *ngIf="user.userLicenseInfo" ngModel #driverLicenseNumberInput="ngModel"
+                      [(ngModel)]="user.userLicenseInfo.driverLicenseNumber" name="driverLicenseNumber" type="text"
+                      maxlength="20" required>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="form_boxes">
+                    <label>Ehliyet Veriliş Tarihi</label>
+                    <input name="driverLicenseIssueDate" [(ngModel)]="formattedDriverLicenseIssueDate" type="date">
+                  </div>
+                </div>
+                <h6 class="title">Yetki Tanımlama</h6>
+                <div class="col-lg-4">
+                  <div class="form_boxes" style="padding-bottom: 0px;">
+                    <label>Kullanıcı Rolü</label>
+                    <div class="drop-menu">
+                      <!-- Süper yönetici ise select elemanını göster -->
+                      <select *ngIf="isSuperAdmin && user.role" ngModel #roleIdInput="ngModel" [(ngModel)]="user.role.roleId"
+                        name="roleId" class="roleId" style="width: 100%;" required>
+                        <option *ngFor="let role of roles" [value]="role.roleId">{{ role.roleName }}</option>
+                      </select>
+                
+                      <!-- Süper yönetici değilse sadece rol adını göster ve gizli bir input ile değeri gönder -->
+                      <div *ngIf="!isSuperAdmin && user.role">
+                        <input type="hidden" ngModel [(ngModel)]="user.role.roleId" name="roleId">
+                        <p>{{ user.role.roleName }}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+
+
+                <div class="col-lg-12 customRegisterDisplay">
+                  <div class="form-submit">
+                    <button type="submit" class="theme-btn">Bilgileri Kaydet
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_711_3214)">
+                          <path
+                            d="M13.6106 0H5.05509C4.84013 0 4.66619 0.173943 4.66619 0.388901C4.66619 0.603859 4.84013 0.777802 5.05509 0.777802H12.6719L0.113453 13.3362C-0.0384687 13.4881 -0.0384687 13.7342 0.113453 13.8861C0.189396 13.962 0.288927 14 0.388422 14C0.487917 14 0.587411 13.962 0.663391 13.8861L13.2218 1.3277V8.94447C13.2218 9.15943 13.3957 9.33337 13.6107 9.33337C13.8256 9.33337 13.9996 9.15943 13.9996 8.94447V0.388901C13.9995 0.173943 13.8256 0 13.6106 0Z"
+                            fill="white"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_711_3214">
+                            <rect width="14" height="14" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <form class="row">
+            <div class="my-listing-table wrap-listing">
+              <div class="cart-table">
+                <div class="search-table-head">
+                  <form>
+                    <div class="search-table-field"
+                      style="border: 1px solid #e1e1e1;border-radius: 10px; padding: 10px;">
+                      <input type="text" placeholder="Plaka ile arama..." (input)="onSearchChange($event)">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="text-box">
+                      <div class="form_boxes v3" style="border: 1px solid #e1e1e1; padding: 20px; border-radius: 10px;">
+                        <small>Görüntüle</small>
+                        <div class="a" style="color:#050B20">
+                          <select (change)="onStatusChange($event)">
+                            <option value="">Tüm Kiralamalar</option>
+                            <option value="0">Onaylandı</option>
+                            <option value="1">İptal Edildi</option>
+                            <option value="2">Tamamlandı</option>
+                            <option value="3">Beklemede</option>
+                          </select>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Kiralayan Bilgileri</th>
+                      <th>Kiralama Bilgileri</th>
+                      <th>Araç Bilgileri</th>
+                      <th>Gün</th>
+                      <th>Ücret</th>
+                      <th>Durum</th>
+                      <th>İşlem</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let rental of rentals">
+                      <td>
+                        <div class="shop-cart-product">
+                          <div class="shop-product-cart-info">
+                            <p>İşlem Tarihi:</p>
+                            <p>{{ rental.requestDate | date:'dd.MM.yyyy HH:mm:ss' }}</p>
+                            <h3>{{ rental.customerName }}</h3>
+                            <p>Telefon: {{ rental.mobilePhone }}</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="shop-cart-product">
+                          <div class="shop-product-cart-info">
+                            <p>Alış Tarihi: {{ rental.startDate | date:'dd.MM.yyyy' }}</p>
+                            <h3>{{ rental.departureLocationName }}</h3>
+                            <p>İade Tarihi: {{ rental.endDate | date:'dd.MM.yyyy' }}</p>
+                            <h3>{{ rental.arrivalLocationName }}</h3>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="shop-cart-product">
+                          <div class="shop-product-cart-info">
+                            <h3>{{ rental.vehiclePlate }}</h3>
+                            <h3>{{ rental.brandName }}, {{ rental.vehicleModel }}</h3>
+                            <p>{{ rental.modelYear }} model</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <span>{{ getDaysDifference(rental.startDate, rental.endDate) }}</span>
+                      </td>
+                      <td>
+                        <span>{{ formatPrice(rental.totalPrice) }}</span>
+                      </td>
+                      <td>
+                        <span>{{ translateStatus(rental.status) }}</span>
+                      </td>
+                      <!-- rental.component.html -->
+                      <td>
+                        <a routerLink="/admin/rentals/edit/{{rental.rentalId}}"  class="remove-cart-item edit-item">
+                          <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="pagination-sec">
+                  <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item" [class.disabled]="currentPage === 1">
+                        <button class="page-link" (click)="previousPage()">Önceki</button>
+                      </li>
+                      <li class="page-item" *ngFor="let page of getPages()" [class.active]="page === currentPage">
+                        <button class="page-link" (click)="goToPage(page)">{{ page }}</button>
+                      </li>
+                      <li class="page-item" [class.disabled]="currentPage === totalPages">
+                        <button class="page-link" (click)="nextPage()">Sonraki</button>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+
+
+
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
