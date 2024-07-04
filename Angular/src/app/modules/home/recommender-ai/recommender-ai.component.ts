@@ -11,7 +11,7 @@ export class RecommenderAiComponent {
   text:any;
   content: any;
   content2: any;
-  private apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDTj17aALf2Dw-n3vmoILxzLy8eULQEdjE';
+  private apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=;
 
   constructor(private http: HttpClient) { }
 
