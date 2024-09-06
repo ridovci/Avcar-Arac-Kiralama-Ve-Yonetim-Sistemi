@@ -1,4 +1,7 @@
 
+![Animation](https://github.com/user-attachments/assets/8e692efc-461a-4b9a-a62d-db4d44a5d20d)
+
+
 # AvciCarRental
 
 AvciCarRental, modern yazılım geliştirme teknolojilerinin gücünü kullanarak, kullanıcı dostu ve verimli bir araç kiralama deneyimi sunan bir platformdur. Bu proje, ASP.NET Core ve Angular teknolojileri ile geliştirilmiş olup, araç kiralama işlemlerinin dijitalleşmesini ve optimize edilmesini sağlar. AvciCarRental, kullanıcıların ihtiyaçlarına hızlı ve güvenli bir şekilde yanıt verirken, yöneticilerin araç filolarını etkin bir şekilde yönetmelerine olanak tanır.
